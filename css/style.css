@@ -80,7 +80,17 @@ button{
 header {
   width: 100%
 }
-
+.pankuzu {
+	background-color: #f6f6f6;
+	padding: 20px 0;
+	width: 100%;
+}
+.pankuzu p {
+	font-size: 13px;
+	line-height: 1;
+	width: 1024px;
+	margin: 0 auto;
+}
 /* =======================================================
 * Home
 * ======================================================= */
@@ -142,26 +152,26 @@ header {
   font-size: 36px;
   font-weight: 400;
 }
-.home .contents-top {
+.contents-top {
   padding-bottom: 80px;
 }
-.home .contents-top h3 {
+.contents-top h3 {
   font-size: 30px;
   text-align: center;
   padding-bottom: 40px;
 }
-.home .contents-top h3 span{
+.contents-top h3 span{
   color: #f7951d;
 }
-.home .contents-top p {
+.contents-top p {
   line-height: 1.8;
 }
-.home .cantents-picture .cantents-picture-innner {
+.cantents-picture .cantents-picture-innner {
   position: relative;
   padding-top: 100%;
   margin-bottom: 50px;
 }
-.home .cantents-picture .cantents-picture-innner .customer{
+.cantents-picture .cantents-picture-innner .customer{
   position: absolute;
   width: 888px;
   top: 0;
@@ -169,10 +179,10 @@ header {
   right: 0;
   bottom: 0;
 }
-.home .cantents-picture .cantents-picture-innner .customer ul{
+.cantents-picture .cantents-picture-innner .customer ul{
   overflow: hidden;
 }
-.home .cantents-picture .cantents-picture-innner .customer ul li {
+.cantents-picture .cantents-picture-innner .customer ul li {
   float: left;
   font-size: 24px;
   line-height: 1;
@@ -182,10 +192,10 @@ header {
   border-radius: 25px;
   margin-left: 34.47933px;
 }
-.home .cantents-picture .cantents-picture-innner .customer ul li:first-child {
+.cantents-picture .cantents-picture-innner .customer ul li:first-child {
   margin-left: 0;
 }
-.home .cantents-picture .cantents-picture-innner .spuare {
+.cantents-picture .cantents-picture-innner .spuare {
   position: absolute;
   font-size: 24px;
   line-height: 1;
@@ -195,21 +205,21 @@ header {
   height: 122px;
   text-align: center;
 }
-.home .cantents-picture .cantents-picture-innner .spuare.dsp {
+.cantents-picture .cantents-picture-innner .spuare.dsp {
   top: 171px;
   left: 108px;
   right: 0;
   bottom: 0;
   background-color: #1f69b4;
 }
-.home .cantents-picture .cantents-picture-innner .spuare.ssp {
+.cantents-picture .cantents-picture-innner .spuare.ssp {
   top: 360px;
   left: 340px;
   right: 0;
   bottom: 0;
   background-color: #f7951d;
 }
-.home .cantents-picture .cantents-picture-innner .tpe {
+.cantents-picture .cantents-picture-innner .tpe {
   position: absolute;
   font-size: 22px;
   line-height: 1.5;
@@ -224,24 +234,24 @@ header {
   right: 0;
   bottom: 0;
 }
-.home .cantents-picture .cantents-picture-innner .arrow {
+.cantents-picture .cantents-picture-innner .arrow {
   position: absolute;
 }
-.home .cantents-picture .cantents-picture-innner .arrow.gray {
+.cantents-picture .cantents-picture-innner .arrow.gray {
   width: 683px;
   top: 50px;
   left: 182px;
   right: 0;
   bottom: 0;
 }
-.home .cantents-picture .cantents-picture-innner .arrow.blue {
+.cantents-picture .cantents-picture-innner .arrow.blue {
   width: 289px;
   top: 293px;
   left: 156px;
   right: 0;
   bottom: 0;
 }
-.home .cantents-picture .cantents-picture-innner .arrow.orange {
+.cantents-picture .cantents-picture-innner .arrow.orange {
   width: 800px;
   top: 482px;
   left: 116px;
@@ -249,7 +259,7 @@ header {
   bottom: 0;
   z-index: 1;
 }
-.home .cantents-picture .cantents-picture-innner .services {
+.cantents-picture .cantents-picture-innner .services {
   position: absolute;
   width: 1024px;
   top: 580px;
@@ -257,10 +267,10 @@ header {
   right: 0;
   bottom: 0;
 }
-.home .cantents-picture .cantents-picture-innner .services ul {
+.cantents-picture .cantents-picture-innner .services ul {
   overflow: hidden;
 }
-.home .cantents-picture .cantents-picture-innner .services li {
+.cantents-picture .cantents-picture-innner .services li {
   float: left;
   width: 242.5px;
   padding: 26px;
@@ -268,31 +278,31 @@ header {
   margin-left: 18px;
   text-align: center;
 }
-.home .cantents-picture .cantents-picture-innner .services li:first-child {
+.cantents-picture .cantents-picture-innner .services li:first-child {
   margin-left: 0;
 }
-.home .cantents-picture .cantents-picture-innner .services li img{
+.cantents-picture .cantents-picture-innner .services li img{
   width: 140px;
   padding-bottom: 10px;
 }
-.home .cantents-picture .cantents-picture-innner .services li h4{
+.cantents-picture .cantents-picture-innner .services li h4{
   font-size: 20px;
   padding-bottom: 15px;
 }
-.home .cantents-picture .cantents-picture-innner .services li span{
+.cantents-picture .cantents-picture-innner .services li span{
   font-size: 16px;
   color: #f7951d;
   padding-bottom: 20px;
   display: block;
 }
-.home .cantents-picture .cantents-picture-innner .services li span:after{
+.cantents-picture .cantents-picture-innner .services li span:after{
   border-top: 1px solid #f7951d;
   width: 100%;
 }
-.home .cantents-picture .cantents-picture-innner .services li p{
+.cantents-picture .cantents-picture-innner .services li p{
   padding-bottom: 20px;
 }
-.home .cantents-picture .cantents-picture-innner .services li .button button{
+.cantents-picture .cantents-picture-innner .services li .button button{
   width: 100%;
   padding: 10px 0;
 }
