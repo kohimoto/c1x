@@ -80,7 +80,17 @@ button{
 header {
   width: 100%
 }
-
+.pankuzu {
+	background-color: #f6f6f6;
+	padding: 20px 0;
+	width: 100%;
+}
+.pankuzu p {
+	font-size: 13px;
+	line-height: 1;
+	width: 1024px;
+	margin: 0 auto;
+}
 /* =======================================================
 * Home
 * ======================================================= */
