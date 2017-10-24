@@ -46,7 +46,8 @@ body {
   font-size: 18px;
   line-height: 1.25;
   color: #000;
-  width: 100%
+  width: 100%;
+	word-break :break-all;
 }
 .head-top{
   width: 1024px;
@@ -89,6 +90,8 @@ header {
 	line-height: 1;
 	width: 1024px;
 	margin: 0 auto;
+	color: #000;
+	font-weight: 400;
 }
 /* =======================================================
 * Home
@@ -316,4 +319,29 @@ footer h1 img{
 }
 footer .copyright p{
   font-size: 14px;
+}
+/* =======================================================
+* Services
+* ======================================================= */
+.services .contents-top {
+	overflow: hidden;
+}
+.services .contents-top .left{
+	float: left;
+	width: 460px;
+}
+.services .contents-top .center{
+	/*width: 104px;*/
+	float: left;
+}
+.services .contents-top .right{
+	float: right;
+	width: 460px;
+}
+.services .contents-top .point {
+  height: 16px;
+	text-align: center;
+}
+.services.issp .cantents-picture .cantents-picture-innner .spuare.dsp {
+  background-color: #a1a1a1;
 }
