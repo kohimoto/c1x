@@ -72,10 +72,18 @@ button{
   padding: 0;
   appearance: none;
 }
-.button button{
- color: #fff;
- background-color: #f7951d;
- font-size: 18px;
+.button.blue button {
+	color: #fff;
+	font-size: 22px;
+	line-height: 1;
+	padding: 28px 0;
+	width: 330px;
+}
+.button.blue button{
+	 background-color: #1f69b4;
+}
+.button.orange button{
+	 background-color: #f7951d;
 }
 header {
   width: 100%
@@ -307,6 +315,9 @@ header {
 .cantents-picture .cantents-picture-innner .services li .button button{
   width: 100%;
   padding: 10px 0;
+	color: #fff;
+  background-color: #f7951d;
+  font-size: 18px;
 }
 footer{
   background-color: #191919;
@@ -326,34 +337,117 @@ footer .copyright p{
 .services .contents-top {
     padding-bottom: 0;
 }
-.services .contents-top .t-column {
+.services .contents-middle h3 {
+  font-size: 30px;
+	font-weight: 400;
+  text-align: center;
+  padding: 20px 0;
+}
+.services .contents-middle p {
+  line-height: 1.8;
+	padding-bottom:
+}
+.services .t-column {
 	overflow: hidden;
 	font-size: 16px;
 	height: 377px;
 }
-.services .contents-top .t-column .left{
+.services .contents-middle .t-column {
+	height: 600px;
+}
+.services .t-column .left{
 	float: left;
 	width: 460px;
 	padding:60px 0;
 }
-.services .contents-top .t-column .center{
+.services .t-column .center{
 	width: 104px;
 	float: left;
 	text-align: center;
 }
-.services .contents-top .t-column .right{
+.services .t-column .right{
 	float: right;
 	width: 460px;
 	padding:60px 0;
 }
-.services .contents-top .point {
+.services .t-column section{
+	overflow: hidden;
+	padding-bottom: 80px;
+}
+.services .t-column section .icon{
+	float: left;
+	width: 95px;
+}
+.services .t-column section .text{
+	float: left;
+	width: 365px;
+}
+.services .t-column section .text h5{
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+.services.idsp .t-column section .text h5{
+  color: #1f69b4;
+}
+.services .point {
   height: 16px;
+	text-align: center;
+}
+.services .line.middle {
+	padding-left: 182px;
+	height: 80px;
+}
+.services .line.top {
 	text-align: center;
 }
 .services.issp .cantents-picture .cantents-picture-innner .spuare.dsp {
   background-color: #a1a1a1;
 }
-.services .contents-top .line.middle {
-	padding-left: 182px;
-	height: 80px;
+.services.idsp h3 span{
+  color: #1f69b4;
+}
+.services.idsp .cantents-picture .cantents-picture-innner {
+  padding-top: 84%;
+}
+.services.idsp .cantents-picture .cantents-picture-innner .spuare.ssp {
+  background-color: #a1a1a1;
+}
+.services.idsp .cantents-picture .cantents-picture-innner .services ul li h4 {
+  color: #a1a1a1;
+}
+.over-contents {
+	width: 100%
+}
+.over-contents .over-contents-innner{
+	position: relative;
+}
+.over-contents .contents-innner{
+	position: relative;
+	width: 1024px;
+	margin: 0 auto;
+}
+.over-contents .contents-innner h5{
+	 color: #1f69b4;
+	 font-size: 22px;
+}
+.contents-bottom .point {
+  padding-bottom: 40px;
+}
+.contents-bottom h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.contents-bottom .button-area {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 700px;
+	padding-bottom: 100px; 
+}
+.contents-bottom .button {
+	float: left;
+	padding-left: 40px;
+}
+.contents-bottom .button:first-child {
+	padding-left: 0;
 }
