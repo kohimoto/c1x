@@ -321,6 +321,7 @@ footer .copyright p{
   font-size: 14px;
 }
 /* =======================================================
+<<<<<<< HEAD
 * About
 * ============241px=========================================== */
 .about .leader{
@@ -371,24 +372,7 @@ footer .copyright p{
 }
 .about .pic_u:nth-child(3n+1){
   margin-left: 0px;
-}
-.map{
-  width: 100%;
-  background-color: rgb(235,235,235);
-}
-.map h3{
-  font-size: 30px;
-  text-align: center;
-  padding-top: 92px;
-}
-div+.map{
-  text-align: center;
-}
-.map_img{
-  width: 1024px;
-  margin: 94px 0 186px 0;
-}
-/* =======================================================
+=======
 * Services
 * ======================================================= */
 .services .contents-top {
@@ -424,4 +408,5 @@ div+.map{
 .services .contents-top .line.middle {
 	padding-left: 182px;
 	height: 80px;
+>>>>>>> 27a28e64e4213aa7befdf43197dfda5805a5f037
 }
