@@ -317,3 +317,55 @@ footer h1 img{
 footer .copyright p{
   font-size: 14px;
 }
+/* =======================================================
+* About
+* ============241px=========================================== */
+.about .leader{
+  height: 241px;
+  margin-bottom: 19px;
+}
+.about .leader_u{
+  height: 302px;
+  margin-bottom: 19px;
+}
+.about .pic{
+  width: 500px;
+  display: inline-block;
+  margin-left: 19px;
+}
+.about .pic:nth-child(odd){
+  margin-left: 0px;
+}
+.about .pic figure{
+  margin: 0;
+  width: 500px;
+  height: 241px;
+}
+.about figure img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.about figcaption{
+  position: relative;
+  bottom: 75px;
+  margin-left: 25px;
+}
+.about figcaption span{
+  display: inline-block;
+  padding-top: 5px;
+}
+.about .pic_u{
+  width: 325.5px;
+  display: inline-block;
+  margin-left: 19px;
+}
+.about .pic_u figure{
+  margin: 0;
+  width: 325.5px;
+  height: 302px;
+}
+.about .pic_u:nth-child(3n+1){
+  margin-left: 0px;
+}
