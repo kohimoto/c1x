@@ -46,7 +46,8 @@ body {
   font-size: 18px;
   line-height: 1.25;
   color: #000;
-  width: 100%
+  width: 100%;
+	word-break :break-all;
 }
 .head-top{
   width: 1024px;
@@ -89,6 +90,8 @@ header {
 	line-height: 1;
 	width: 1024px;
 	margin: 0 auto;
+	color: #000;
+	font-weight: 400;
 }
 /* =======================================================
 * Home
@@ -318,6 +321,7 @@ footer .copyright p{
   font-size: 14px;
 }
 /* =======================================================
+<<<<<<< HEAD
 * About
 * ============241px=========================================== */
 .about .leader{
@@ -368,4 +372,41 @@ footer .copyright p{
 }
 .about .pic_u:nth-child(3n+1){
   margin-left: 0px;
+=======
+* Services
+* ======================================================= */
+.services .contents-top {
+    padding-bottom: 0;
+}
+.services .contents-top .t-column {
+	overflow: hidden;
+	font-size: 16px;
+	height: 377px;
+}
+.services .contents-top .t-column .left{
+	float: left;
+	width: 460px;
+	padding:60px 0;
+}
+.services .contents-top .t-column .center{
+	width: 104px;
+	float: left;
+	text-align: center;
+}
+.services .contents-top .t-column .right{
+	float: right;
+	width: 460px;
+	padding:60px 0;
+}
+.services .contents-top .point {
+  height: 16px;
+	text-align: center;
+}
+.services.issp .cantents-picture .cantents-picture-innner .spuare.dsp {
+  background-color: #a1a1a1;
+}
+.services .contents-top .line.middle {
+	padding-left: 182px;
+	height: 80px;
+>>>>>>> 27a28e64e4213aa7befdf43197dfda5805a5f037
 }
