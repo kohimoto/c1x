@@ -321,7 +321,6 @@ footer .copyright p{
   font-size: 14px;
 }
 /* =======================================================
-<<<<<<< HEAD
 * About
 * ============241px=========================================== */
 .about .leader{
@@ -372,7 +371,8 @@ footer .copyright p{
 }
 .about .pic_u:nth-child(3n+1){
   margin-left: 0px;
-=======
+}
+/* =======================================================
 * Services
 * ======================================================= */
 .services .contents-top {
@@ -408,5 +408,4 @@ footer .copyright p{
 .services .contents-top .line.middle {
 	padding-left: 182px;
 	height: 80px;
->>>>>>> 27a28e64e4213aa7befdf43197dfda5805a5f037
 }
