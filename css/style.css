@@ -360,6 +360,9 @@ footer .copyright p{
 	object-fit: cover;
 	object-position: 50% 50%;
 }
+.about .pic_img{
+	font-family: 'object-fit:cover; object-position: 50% 50%;'
+}
 .about figcaption{
 	position: relative;
 	bottom: 75px;
