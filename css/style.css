@@ -414,7 +414,7 @@ footer .copyright p{
 	/* display: inline-block;*/
 	float: left;
 	margin: 0;
-	background: #000330;
+	background: #000;
 	height: 301px;
 }
 .location figure:not(:nth-child(1)){
@@ -477,7 +477,7 @@ footer .copyright p{
 	margin-bottom: 5px;
 }
 .career figure{
-	background: #000330;
+	background: #000;
 }
 .career figure img{
 	width: 100%;
@@ -487,23 +487,26 @@ footer .copyright p{
 	opacity: 1;
 }
 .career figure img:hover{
-	cursor: pointer;
+	/*cursor: pointer;*/
 	opacity: 0.5;
 }
 .career figcaption{
 	position: relative;
 	bottom: 230px;
-	margin: 10px;
+	margin: 18px;
 	font-size: 12.67px;
-	line-height: 20px;
+	line-height: 21px;
 	color: #fff;
 	display: none;
 }
 .career figure img:hover + figcaption{
 	display: block;
 }
-.career figcaption:hover{
-	color: red;
+.career figure:hover > figcaption{
+	display: block;
+}
+.career figure:hover > img{
+	opacity: 0.5;
 }
 .career figcaption span{
 	display: inline-block;
