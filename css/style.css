@@ -428,6 +428,8 @@ footer .copyright p{
 	object-fit: cover;
 	object-position: 60% 50%;
 	opacity: 0.8;
+}
+.pic_img{
 	font-family: 'object-fit:cover; object-position: 60% 50%;'
 }
 .location figcaption{
