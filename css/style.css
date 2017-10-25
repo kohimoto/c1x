@@ -333,69 +333,141 @@ footer .copyright p{
 * About
 * ============241px=========================================== */
 .about .leader{
-  height: 241px;
-  margin-bottom: 19px;
+	height: 246px;
+	margin-bottom: 12px;
 }
 .about .leader_u{
-  height: 302px;
-  margin-bottom: 19px;
+	height: 302px;
+	margin-bottom: 17px;
 }
 .about .pic{
-  width: 500px;
-  display: inline-block;
-  margin-left: 19px;
+	width: 505px;
+	/*display: inline-block;*/
+	float: left;
+	margin-left: 12px;
 }
 .about .pic:nth-child(odd){
-  margin-left: 0px;
+	margin-left: 0px;
 }
 .about .pic figure{
-  margin: 0;
-  width: 500px;
-  height: 241px;
+	margin: 0;
+	width: 505px;
+	height: 246px;
 }
 .about figure img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 50%;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
 }
 .about figcaption{
-  position: relative;
-  bottom: 75px;
-  margin-left: 25px;
+	position: relative;
+	bottom: 75px;
+	margin-left: 25px;
 }
 .about figcaption span{
-  display: inline-block;
-  padding-top: 5px;
+	display: inline-block;
+	padding-top: 5px;
 }
 .about .pic_u{
-  width: 325.5px;
-  display: inline-block;
-  margin-left: 19px;
+	width: 333.0px;
+	/*display: inline-block;*/
+	float: left;
+	margin-left: 12px;
 }
 .about .pic_u figure{
-  margin: 0;
-  width: 325.5px;
-  height: 302px;
+	margin: 0;
+	width: 333.0px;
+	height: 307px;
 }
 .about .pic_u:nth-child(3n+1){
-  margin-left: 0px;
+	margin-left: 0px;
 }
 .map{
-  width: 100%;
-  background-color: rgb(235,235,235);
+	width: 100%;
+	background-color: rgb(235,235,235);
+	position: relative;
 }
 .map h3{
-  font-size: 30px;
-  text-align: center;
-  padding-top: 92px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 92px;
 }
-div+.map{
-  text-align: center;
+.map > div{
+	text-align: center;
 }
 .map_img{
-  width: 1024px;
-  margin: 94px 0 186px 0;
+	width: 1024px;
+	margin: 94px 0 186px 0;
+}
+.location{
+	text-align: center;
+	position: relative;
+	top: -150px;
+}
+.location > div{
+	width: 1024px;
+	margin: 0 auto;
+}
+.location figure{
+	width: 195px;
+	/* display: inline-block;*/
+	float: left;
+	margin: 0;
+	background: #000330;
+	height: 301px;
+}
+.location figure:not(:nth-child(1)){
+	margin-left: 12px;
+}
+.location figure img{
+	width: 195px;
+	height: 301px;
+	object-fit: cover;
+	object-position: 60% 50%;
+	opacity: 0.8;
+}
+.pic_img{
+	font-family: 'object-fit:cover; object-position: 60% 50%;'
+}
+.location figcaption{
+	font-size: 23px;
+	position: relative;
+	bottom: 170px;
+	color: #fff;
+}
+.map .point1{
+	position: absolute;
+	top: 417px;
+	left: 555px;
+}
+.map .point2{
+	position: absolute;
+	top: 412px;
+	left: 628px;
+}
+.map .point3{
+	position: absolute;
+	top: 528px;
+	right: 754px;
+}
+.map .point4{
+	position: absolute;
+	top: 535px;
+	right: 735px;
+}
+.map .point5{
+	position: absolute;
+	top: 595px;
+	right: 657px;
+}
+.map .point6{
+	position: absolute;
+	top: 457px;
+	right: 560px;
+}
+.clear{
+	clear: both;
 }
 /* =======================================================
 * Services
