@@ -442,8 +442,28 @@ footer .copyright p{
 }
 .map .point2{
 	position: absolute;
-	top: 370px;
-	left: 600px;
+	top: 412px;
+	left: 628px;
+}
+.map .point3{
+	position: absolute;
+	top: 528px;
+	right: 754px;
+}
+.map .point4{
+	position: absolute;
+	top: 535px;
+	right: 735px;
+}
+.map .point5{
+	position: absolute;
+	top: 595px;
+	right: 657px;
+}
+.map .point6{
+	position: absolute;
+	top: 457px;
+	right: 560px;
 }
 .clear{
 	clear: both;
