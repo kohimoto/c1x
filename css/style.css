@@ -440,32 +440,32 @@ footer .copyright p{
 	bottom: 170px;
 	color: #fff;
 }
-.map .point1{
+.map .point1 svg{
 	position: relative;
 	top: -587px;
 	left: -394px;
 }
-.map .point2{
+.map .point2 svg{
 	position: relative;
 	top: -620px;
 	left: -310px;
 }
-.map .point3{
+.map .point3 svg{
 	position: relative;
 	top: -527px;
 	left: 190px;
 }
-.map .point4{
+.map .point4 svg{
 	position: relative;
 	top: -542px;
 	left: 210px;
 }
-.map .point5{
+.map .point5 svg{
 	position: relative;
 	top: -502px;
 	left: 288px;
 }
-.map .point6{
+.map .point6 svg{
 	position: relative;
 	top: -665px;
 	left: 388px;
