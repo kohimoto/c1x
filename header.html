@@ -103,10 +103,7 @@ if(is_array($head_img_arr)){
 
 }
 ?>
-	<div class="head-img">
-		<img src="<?=$img_src?>" alt="main images">
-	</div>
-	<div class="head-top">
+	<div class="head-top <?=$head_class?>">
 		<div class="head-top-left">
   		<h1><a href="/"><img src="/images/common/c1x_logo_white.png" alt="logo"></a></h1>
 		</div>
@@ -142,6 +139,9 @@ if(is_array($head_img_arr)){
 				</div>
 			</nav><!-- #site-navigation -->
 		</div>
+	</div>
+	<div class="head-img">
+		<img src="<?=$img_src?>" alt="main images">
 	</div>
 	<div class="head-center <?=$head_class?>">
 		<h2><?=$img_word_main?><span><br><?=$img_word_sub?></span></h2>
