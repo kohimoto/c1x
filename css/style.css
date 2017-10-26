@@ -69,6 +69,10 @@ body {
 	padding-bottom: 26px;
 	width: 1024px;
 }
+.head-top.various + .head-img{
+	height: 470px;
+	overflow: hidden;
+}
 .contents {
   width: 1024px;
   margin: 0 auto;
@@ -171,6 +175,9 @@ header {
   text-align: center;
   width: 1024px;
 }
+.head-center.various{
+  top: 60%;
+}
 .head-center h2{
   font-size: 60px;
   font-weight: 700;
@@ -178,6 +185,9 @@ header {
 .head-center h2 span{
   font-size: 36px;
   font-weight: 400;
+}
+.head-center.various h2 span{
+  font-size: 26px;
 }
 .contents-top {
   padding-bottom: 80px;
