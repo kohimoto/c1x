@@ -684,6 +684,9 @@ footer .copyright p{
 .services.idsp .t-column section .text h5{
   color: #1f69b4;
 }
+.services.headertag .t-column section .text h5{
+  color: #f7951d;
+}
 .services .point {
   height: 16px;
 	text-align: center;
@@ -739,7 +742,8 @@ footer .copyright p{
 }
 .services.issp .cantents-picture .cantents-picture-innner .spuare.dsp,
 .services.direct .cantents-picture .cantents-picture-innner .spuare.dsp,
-.services.headertag .cantents-picture .cantents-picture-innner .spuare.dsp {
+.services.headertag .cantents-picture .cantents-picture-innner .spuare.dsp,
+.services.mobile .cantents-picture .cantents-picture-innner .spuare.dsp {
   background-color: #a1a1a1;
 }
 
@@ -748,16 +752,16 @@ footer .copyright p{
 }
 .services.idsp .cantents-picture .cantents-picture-innner,
 .services.direct .cantents-picture .cantents-picture-innner,
-.services.headertag .cantents-picture .cantents-picture-innner {
+.services.headertag .cantents-picture .cantents-picture-innner,
+.services.mobile .cantents-picture .cantents-picture-innner  {
   padding-top: 84%;
 }
 .services.idsp .cantents-picture .cantents-picture-innner .spuare.ssp {
   background-color: #a1a1a1;
 }
-.services.direct .cantents-picture .cantents-picture-innner .services li.direct {
-    border: 2px solid #f7951d;
-}
-.services.headertag .cantents-picture .cantents-picture-innner .services li.headertag {
+.services.direct .cantents-picture .cantents-picture-innner .services li.direct,
+.services.headertag .cantents-picture .cantents-picture-innner .services li.headertag,
+.services.mobile .cantents-picture .cantents-picture-innner .services li.mobile {
     border: 2px solid #f7951d;
 }
 .services.idsp .cantents-picture .cantents-picture-innner .services ul li h4 {
