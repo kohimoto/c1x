@@ -686,38 +686,6 @@ footer .copyright p{
 .services.direct .t-column section{
 	padding-bottom: 0;
 }
-.services.direct .bottom.t-column .left section .text {
-padding-left: 0;
-}
-.services.direct .bottom.t-column	.left ,
-.services.direct .bottom.t-column	.center ,
-.services.direct .bottom.t-column	.right {
-	width:30%;
-	padding: 60px 10px 60px 0;
-	text-align: left;
-	float: left;
-}
-.services.issp .cantents-picture .cantents-picture-innner .spuare.dsp,
-.services.direct .cantents-picture .cantents-picture-innner .spuare.dsp {
-  background-color: #a1a1a1;
-}
-
-.services.idsp h3 span{
-  color: #1f69b4;
-}
-.services.idsp .cantents-picture .cantents-picture-innner,
-.services.direct .cantents-picture .cantents-picture-innner {
-  padding-top: 84%;
-}
-.services.idsp .cantents-picture .cantents-picture-innner .spuare.ssp {
-  background-color: #a1a1a1;
-}
-.services.direct .cantents-picture .cantents-picture-innner .services li.direct {
-    border: 2px solid #f7951d;
-}
-.services.idsp .cantents-picture .cantents-picture-innner .services ul li h4 {
-  color: #a1a1a1;
-}
 .services.direct .t-column section .text{
 	padding-bottom: 60px;
 }
@@ -732,6 +700,58 @@ padding-left: 0;
 .services.direct .t-column .right section .text h5{
   color: #8dc63f;
 }
+.services.direct .bottom.t-column section .text {
+	width: auto;
+	padding-bottom: 0;
+}
+.services.direct .bottom.t-column section .text h5 {
+	color:#000;
+}
+.services.direct .bottom.t-column .left section .text {
+	padding-left: 0;
+}
+.services.direct .bottom.t-column	.left ,
+.services.direct .bottom.t-column	.center ,
+.services.direct .bottom.t-column	.right {
+	width:30%;
+	padding: 30px 0;
+	text-align: left;
+	float: left;
+}
+.services.direct .bottom.t-column	.left ,
+.services.direct .bottom.t-column	.center{
+	margin-right: 5%;
+}
+.services.direct .bottom.t-column	.right {
+	margin-right: 0;
+}
+.services.issp .cantents-picture .cantents-picture-innner .spuare.dsp,
+.services.direct .cantents-picture .cantents-picture-innner .spuare.dsp,
+.services.headertag .cantents-picture .cantents-picture-innner .spuare.dsp {
+  background-color: #a1a1a1;
+}
+
+.services.idsp h3 span{
+  color: #1f69b4;
+}
+.services.idsp .cantents-picture .cantents-picture-innner,
+.services.direct .cantents-picture .cantents-picture-innner,
+.services.headertag .cantents-picture .cantents-picture-innner {
+  padding-top: 84%;
+}
+.services.idsp .cantents-picture .cantents-picture-innner .spuare.ssp {
+  background-color: #a1a1a1;
+}
+.services.direct .cantents-picture .cantents-picture-innner .services li.direct {
+    border: 2px solid #f7951d;
+}
+.services.headertag .cantents-picture .cantents-picture-innner .services li.headertag {
+    border: 2px solid #f7951d;
+}
+.services.idsp .cantents-picture .cantents-picture-innner .services ul li h4 {
+  color: #a1a1a1;
+}
+
 .over-contents {
 	width: 100%
 }
