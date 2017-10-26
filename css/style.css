@@ -443,32 +443,44 @@ footer .copyright p{
 .map .point1{
 	position: relative;
 	top: -587px;
-	left: -394px;
+	left: 552px;
+	width: 12px;
+	height: 12px;
 }
 .map .point2{
 	position: relative;
 	top: -620px;
-	left: -310px;
+	left: 630px;
+	width: 12px;
+	height: 12px;
 }
 .map .point3{
 	position: relative;
-	top: -527px;
-	left: 190px;
+	top: -507px;
+	left: 1137px;
+	width: 12px;
+	height: 12px;
 }
 .map .point4{
 	position: relative;
-	top: -542px;
-	left: 210px;
+	top: -507px;
+	left: 1159px;
+	width: 12px;
+	height: 12px;
 }
 .map .point5{
 	position: relative;
-	top: -502px;
-	left: 288px;
+	top: -468px;
+	left: 1234px;
+	width: 12px;
+	height: 12px;
 }
 .map .point6{
 	position: relative;
-	top: -665px;
-	left: 388px;
+	top: -613px;
+	left: 1335px;
+	width: 12px;
+	height: 12px;
 }
 .clear{
 	clear: both;
