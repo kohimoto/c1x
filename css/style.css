@@ -66,8 +66,12 @@ body {
 	right: 0;
 	margin: 0 auto;
 	overflow: hidden;
-	padding-top: 52px;
+	padding-bottom: 26px;
 	width: 1024px;
+}
+.head-top.various + .head-img{
+	height: 470px;
+	overflow: hidden;
 }
 .contents {
   width: 1024px;
@@ -135,6 +139,10 @@ header {
 .head-top .head-top-left{
   float: left;
 }
+.head-top.various .head-top-left img{
+ 	width: 123px;
+	height: 53px;
+}
 .head-top .head-top-right{
   float:right;
 }
@@ -167,6 +175,9 @@ header {
   text-align: center;
   width: 1024px;
 }
+.head-center.various{
+  top: 60%;
+}
 .head-center h2{
   font-size: 60px;
   font-weight: 700;
@@ -174,6 +185,9 @@ header {
 .head-center h2 span{
   font-size: 36px;
   font-weight: 400;
+}
+.head-center.various h2 span{
+  font-size: 26px;
 }
 .contents-top {
   padding-bottom: 80px;
