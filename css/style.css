@@ -610,6 +610,9 @@ footer .copyright p{
 /* =======================================================
 * Services
 * ======================================================= */
+.text p {
+	line-height: 1.8;
+}
 .issp-nav {
 	border-bottom: 1px solid #f7951d;
 }
@@ -866,11 +869,6 @@ footer .copyright p{
 	width: 1024px;
 	margin: 0 auto;
 }
-.over-contents .contents-inner .pointer-position{
-	position: absolute;
-	padding-left: 512px;
-	top: 200px;
-}
 .over-contents .over-contents-inner{
 	position: relative;
 	height: 667px;
@@ -881,6 +879,16 @@ footer .copyright p{
 	left: -200px;
 }
 .over-contents .over-contents-inner .over-position img{
+}
+.over-contents .contents-inner .pointer-position{
+	position: absolute;
+	padding-left: 512px;
+	top: 200px;
+}
+.over-contents .contents-inner .line-position {
+	position: absolute;
+	padding-left: 405px;
+	top: 460px;
 }
 
 .over-contents .contents-inner h5{
