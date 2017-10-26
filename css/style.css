@@ -95,6 +95,9 @@ button{
 header {
   width: 100%
 }
+.sub-header{
+	 padding-bottom: 80px;
+}
 .pankuzu {
 	background-color: #f6f6f6;
 	padding: 20px 0;
@@ -114,7 +117,6 @@ header {
 header {
   position: relative;
   color: #fff;
-  padding-bottom: 80px;
 }
 .head-img img {
   width: 100%;
