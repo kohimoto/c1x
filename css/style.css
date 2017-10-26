@@ -72,6 +72,10 @@ body {
 .head-top.various + .head-img{
 	height: 470px;
 	overflow: hidden;
+	background: #000;
+}
+.head-top.various + .head-img img{
+	opacity: 0.8;
 }
 .contents {
   width: 1024px;
