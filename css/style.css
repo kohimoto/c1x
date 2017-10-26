@@ -669,6 +669,24 @@ footer .copyright p{
 	font-size: 22px;
 	padding-bottom: 20px;
 }
+.services .f-column .f-colum-inner {
+	overflow: hidden;
+}
+.services .f-column .f-colum-inner section {
+	width: 22%;
+	float: left;
+	padding-left: 4%;
+}
+.services .f-column .f-colum-inner section:first-child {
+	padding-left: 0;
+}
+.services .f-column .f-colum-inner section .img img {
+	width: 100%;
+}
+.services .f-column .f-colum-inner section .text p {
+	text-align: center;
+}
+
 .services.idsp .t-column section .text h5{
   color: #1f69b4;
 }
@@ -728,6 +746,12 @@ footer .copyright p{
 .services.direct .bottom.t-column	.right {
 	margin-right: 0;
 }
+.services.mobile .t-column .left h3{
+	padding-bottom: 80px;
+}
+.services.mobile .t-column .left section .text h5{
+  color: #f7951d;
+}
 .services.issp .cantents-picture .cantents-picture-innner .spuare.dsp,
 .services.direct .cantents-picture .cantents-picture-innner .spuare.dsp,
 .services.headertag .cantents-picture .cantents-picture-innner .spuare.dsp,
@@ -755,7 +779,6 @@ footer .copyright p{
 .services.idsp .cantents-picture .cantents-picture-innner .services ul li h4 {
   color: #a1a1a1;
 }
-
 .over-contents {
 	width: 100%
 }
