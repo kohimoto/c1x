@@ -451,14 +451,14 @@ footer .copyright p{
 	left: -310px;
 }
 .map .point3{
-	position: absolute;
-	top: 528px;
-	right: 754px;
+	position: relative;
+	top: -527px;
+	left: 190px;
 }
 .map .point4{
-	position: absolute;
-	top: 535px;
-	right: 735px;
+	position: relative;
+	top: -520px;
+	left: 195px;
 }
 .map .point5{
 	position: absolute;
