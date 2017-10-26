@@ -760,16 +760,21 @@ footer .copyright p{
 }
 .services.idsp .cantents-picture .cantents-picture-innner,
 .services.direct .cantents-picture .cantents-picture-innner,
-.services.headertag .cantents-picture .cantents-picture-innner {
+.services.headertag .cantents-picture .cantents-picture-innner,
+.services.mobile .cantents-picture .cantents-picture-innner,
+.services.e-commerce .cantents-picture .cantents-picture-innner {
   padding-top: 84%;
 }
 .services.idsp .cantents-picture .cantents-picture-innner .spuare.ssp {
   background-color: #a1a1a1;
 }
-.services.direct .cantents-picture .cantents-picture-innner .services li.direct {
+.services.direct .cantents-picture .cantents-picture-innner .services li.direct,
+.services.headertag .cantents-picture .cantents-picture-innner .services li.headertag,
+.services.mobile .cantents-picture .cantents-picture-innner .services li.mobile,
+.services.e-commerce .cantents-picture .cantents-picture-innner .services li.e-commerce {
     border: 2px solid #f7951d;
 }
-.services.headertag .cantents-picture .cantents-picture-innner .services li.headertag {
+{
     border: 2px solid #f7951d;
 }
 .services.idsp .cantents-picture .cantents-picture-innner .services ul li h4 {
