@@ -370,7 +370,6 @@ footer .copyright p{
 }
 .about figcaption span{
 	display: inline-block;
-	padding-top: 5px;
 }
 .about .pic_u{
 	width: 333.0px;
@@ -439,6 +438,33 @@ footer .copyright p{
 	position: relative;
 	bottom: 170px;
 	color: #fff;
+}
+.location figcaption span{
+	display: none;
+}
+.location figure figcaption:hover > span,
+.location figure img:hover + figcaption span{
+	display: block;
+	font-size: 14px;
+	position: absolute;
+	top: -75px;
+	text-align: left;
+	margin: 15px;
+	line-height: 23px;
+}
+.location figure figcaption:hover > b,
+.location figure img:hover + figcaption b{
+	/*display: none;*/
+	position: absolute;
+	top: -95px;
+	left: 0;
+	margin-left: 15px;
+}
+.location figure:hover{
+	background: rgb(247,149,29);
+}
+.location figure:hover > img{
+	opacity: 0.1;
 }
 .map .point1 svg{
 	position: relative;
