@@ -756,7 +756,6 @@ footer .copyright p{
 .services.e-commerce .cantents-picture .cantents-picture-innner .spuare.dsp {
   background-color: #a1a1a1;
 }
-
 .services.idsp h3 span{
   color: #1f69b4;
 }
@@ -774,9 +773,6 @@ footer .copyright p{
 .services.headertag .cantents-picture .cantents-picture-innner .services li.headertag,
 .services.mobile .cantents-picture .cantents-picture-innner .services li.mobile,
 .services.e-commerce .cantents-picture .cantents-picture-innner .services li.e-commerce {
-    border: 2px solid #f7951d;
-}
-{
     border: 2px solid #f7951d;
 }
 .services.idsp .cantents-picture .cantents-picture-innner .services ul li h4 {
