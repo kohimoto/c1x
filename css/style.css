@@ -672,6 +672,9 @@ footer .copyright p{
 .services.idsp .t-column section .text h5{
   color: #1f69b4;
 }
+.services.headertag .t-column section .text h5{
+  color: #f7951d;
+}
 .services .point {
   height: 16px;
 	text-align: center;
