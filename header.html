@@ -25,7 +25,7 @@
 <meta property='og:email' content=''>
 
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="/js/ofi.min.js"></script>
@@ -49,18 +49,42 @@ $(function(){
 <?
 $now_uri = $_SERVER["REQUEST_URI"];
 
-$head_img_arr["about"]["img"]    = "/images/about/header-about.jpg";
-$head_img_arr["about"]["w_main"]  = "About us";
-$head_img_arr["about"]["w_sub"]  = "10 offices across the glove, and growing strong";
 
-$head_img_arr["contact"]["img"]  = "/images/contact/header-contact.jpg";
-$head_img_arr["contact"]["w_main"]  = "";
-$head_img_arr["contact"]["w_sub"]  = "";
+//setting 
+
+$head_img_arr["about"]["img"]          = "/images/about/header-about.jpg";
+$head_img_arr["about"]["w_main"]       = "About us";
+$head_img_arr["about"]["w_sub"]        = "10 offices across the glove, and growing strong";
+
+$head_img_arr["contact"]["img"]        = "/images/contact/header-contact.jpg";
+$head_img_arr["contact"]["w_main"]     = "";
+$head_img_arr["contact"]["w_sub"]      = "";
 
 
-$head_img_arr["career"]["img"]   = "/images/career/header-careers.jpg";
-$head_img_arr["career"]["w_main"]  = "CAREERS";
-$head_img_arr["career"]["w_sub"]  = "Work with a team of passionate and creative people from around the globe";
+$head_img_arr["career"]["img"]         = "/images/career/header-careers.jpg";
+$head_img_arr["career"]["w_main"]      = "CAREERS";
+$head_img_arr["career"]["w_sub"]       = "Work with a team of passionate and creative people from around the globe";
+
+
+$head_img_arr["idsp"]["img"]           = "/images/services/header-idsp.jpg";
+$head_img_arr["idsp"]["w_main"]        = "iDSP";
+$head_img_arr["idsp"]["w_sub"]         = "10 offices across the glove, and growing strong";
+
+$head_img_arr["issp"]["img"]           = "/images/services/header-issp.jpg";
+$head_img_arr["issp"]["w_main"]        = "iSSP";
+$head_img_arr["issp"]["w_sub"]         = "10 offices across the glove, and growing strong";
+
+$head_img_arr["direct"]["img"]         = "/images/contact/header-contact.jpg";
+$head_img_arr["direct"]["w_main"]      = "";
+$head_img_arr["direct"]["w_sub"]       = "";
+
+$head_img_arr["e-commerce"]["img"]     = "/images/contact/header-contact.jpg";
+$head_img_arr["e-commerce"]["w_main"]  = "";
+$head_img_arr["e-commerce"]["w_sub"]   = "";
+
+$head_img_arr["headertag"]["img"]      = "/images/contact/header-contact.jpg";
+$head_img_arr["headertag"]["w_main"]   = "";
+$head_img_arr["headertag"]["w_sub"]    = "";
 
 
 if(is_array($head_img_arr)){
@@ -84,7 +108,7 @@ if(is_array($head_img_arr)){
 	</div>
 	<div class="head-top">
 		<div class="head-top-left">
-  		<h1><a href="/"><img src="images/common/c1x_logo_white.png" alt="logo"></a></h1>
+  		<h1><a href="/"><img src="/images/common/c1x_logo_white.png" alt="logo"></a></h1>
 		</div>
 		<div class="head-top-right">
 			<!--div class="sns">
