@@ -887,31 +887,65 @@ footer .copyright p{
 	position: relative;
 	height: 667px;
 	float:left;
-}
-.over-contents .over-contents-inner .over-position {
-	position: absolute;
-	left: -200px;
-}
-.over-contents .over-contents-inner .over-position img{
-}
-.over-contents .contents-inner .pointer-position{
-	position: absolute;
-	padding-left: 512px;
-	top: 200px;
+	width: 100%;
 }
 .over-contents .contents-inner .line-position {
 	position: absolute;
 	padding-left: 405px;
 	top: 460px;
 }
-
 .over-contents .contents-inner h5{
 	 color: #1f69b4;
 	 font-size: 22px;
 	padding-bottom: 25px
 }
+.over-contents .over-contents-inner .over-position {
+	position: absolute;
+	left: -200px;
+}
+.over-contents .contents-inner .pointer-position{
+	position: absolute;
+	padding-left: 512px;
+	top: 240px;
+}
+.over-contents .contents-inner .pointer-position .cercle{
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	left: 178px;
+}
+.over-contents .contents-inner .pointer-position .pointer{
+	position: absolute;
+	left: 186px;
+	top: -11px;
+}
+.over-contents .contents-inner .pointer-position .text{
+	position: absolute;
+	top: -24px;
+	width: 512px;
+}
+.over-contents.idsp2 .over-contents-inner .over-position {
+	right: -200px;
+	left: auto;
+}
+.over-contents.idsp2 .contents-inner .pointer-position {
+  position: absolute;
+  padding-right: 512px;
+  padding-left: 0;
+  top: 240px;
+}
+.over-contents.idsp2  .contents-inner .pointer-position .pointer {
+  left: 500px;
+}
+.over-contents.idsp2 .contents-inner .pointer-position .cercle{
+	left: 801px;
+}
 .contents-bottom .point {
   padding-bottom: 40px;
+}
+.contents-bottom .line {
+  text-align: center;
+	padding-left: 249px;
 }
 .contents-bottom h3 {
   font-size: 30px;
