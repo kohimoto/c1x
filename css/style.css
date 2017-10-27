@@ -94,6 +94,32 @@ body {
 	display: inline-block;
 	padding-left: 24px;
 }
+header .navbar-shrink{
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 5;
+	background: #fff;
+	opacity: 0.9;
+	height: 95px;
+	animation: fadeIn 0.8s ease 0s 1 normal;
+	-webkit-animation: fadeIn 0.8s ease 0s 1 normal;
+}
+@keyframes fadeIn{
+	0%{opacity: 0}
+	100%{opacity: 0.9}
+}
+header .navbar-shrink .head-top{
+	padding-top: 18px;
+}
+header .navbar-shrink .head-top .head-top-right .menu-container ul li a{
+	color: #000;
+}
+.navbar-shrink h1 img{
+	height: 53px;
+}
 a, a:hover, a:visited {
 	color: #000;
 	text-decoration: none;
@@ -157,7 +183,7 @@ header {
   float: left;
 }
 .head-top.various .head-top-left img{
- 	width: 123px;
+ 	/*width: 123px;*/
 	height: 53px;
 }
 .head-top .head-top-right{
