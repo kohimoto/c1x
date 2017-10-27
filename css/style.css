@@ -66,24 +66,41 @@ body {
 	right: 0;
 	margin: 0 auto;
 	overflow: hidden;
-	padding-bottom: 26px;
+	padding: 26px 0;
 	width: 1024px;
 }
 .head-top.various + .head-img{
 	height: 470px;
 	overflow: hidden;
+	background: #000;
+}
+.head-top.various + .head-img img{
+	opacity: 0.8;
 }
 .contents {
-  width: 1024px;
-  margin: 0 auto;
+	width: 1024px;
+	margin: 0 auto;
+}
+.iconarea{
+	border-bottom: 1px solid #dcdcdc;
+}
+.iconarea .sns{
+	width: 1024px;
+	text-align: right;
+	padding: 26px 0;
+	margin: 0 auto;
+}
+.iconarea li{
+	display: inline-block;
+	padding-left: 24px;
 }
 a, a:hover, a:visited {
-  color: #000;
-  text-decoration: none;
+	color: #000;
+	text-decoration: none;
 	cursor: pointer;
 }
 a:hover{
-  text-decoration: none;
+	text-decoration: none;
 }
 button{
   background-color: transparent;
