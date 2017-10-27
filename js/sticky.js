@@ -27,7 +27,7 @@ var cbpAnimatedHeader = (function() {
 		else {
 			//classie.remove( header, 'navbar-shrink' );
 			$('.wrap-head').removeClass('navbar-shrink');
-			$('.head-top h1 img').attr('src','/images/common/c1x_logo_white.png');
+			$('.head-top .head-home h1 img').attr('src','/images/common/c1x_logo_white.png');
 		}
 		didScroll = false;
 	}
