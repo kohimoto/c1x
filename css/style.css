@@ -715,14 +715,19 @@ footer .copyright p{
   line-height: 1.8;
 	padding-bottom:
 }
+.services .contents-middle .t-column {
+	height: auto;
+}
+
+.services.headertag .contents-middle h5 {
+	color: #f7951d;
+}
 .services .t-column {
 	overflow: hidden;
 	font-size: 16px;
 	height: 377px;
 }
-.services .contents-middle .t-column {
-	height: auto;
-}
+
 .services .t-column .left{
 	float: left;
 	width: 460px;
@@ -956,6 +961,22 @@ footer .copyright p{
 }
 .over-contents.idsp2 .contents-inner .pointer-position .cercle{
 	left: 801px;
+}
+
+.over-contents .over-contents-inner.headertag .t-column {
+    overflow: hidden;
+    width: 1024px;
+		height: 887px;
+    margin: 0 auto;
+}
+.over-contents  .right-img {
+    position: absolute;
+		top: 100px;
+		left: auto;
+		right:-200px;
+}
+.over-contents .over-contents-inner.headertag {
+	height: auto;
 }
 .contents-bottom .point {
   padding-bottom: 40px;
