@@ -459,9 +459,10 @@ footer .copyright p{
 }
 .map{
 	width: 100%;
-	height: 100%;
+	height: 1080px;
 	background-color: rgb(235,235,235);
 	position: relative;
+	overflow: hidden;
 }
 .map h3{
 	font-size: 30px;
@@ -567,6 +568,56 @@ footer .copyright p{
 	position: relative;
 	top: -665px;
 	left: 388px;
+}
+.around{
+	opacity: 0.5;
+	animation: Flash1 1s infinite;
+	/*display: none;*/
+}
+.around_1 svg{
+	position: relative;
+	top: -743px;
+	left: -279px;
+}
+.around_2 svg{
+	position: relative;
+	top: -907px;
+	left: -195px;
+}
+.around_3 svg{
+	position: relative;
+	top: -947px;
+	left: 305px;
+}
+.around_4 svg{
+	position: relative;
+	top: -1093px;
+	left: 325px;
+}
+.around_5 svg{
+	position: relative;
+	top: -1186px;
+	left: 403px;
+}
+.around_6 svg{
+	position: relative;
+	top: -1480px;
+	left: 503px;
+}
+.disp_none svg circle{
+	/*display: none;*/
+	fill: #fff;
+	opacity: 0;
+}
+.lightning svg circle{
+	opacity: 0.5;
+	animation: Flash1 1s infinite;
+
+}
+@keyframes Flash1{
+	50%{
+		opacity: 0;
+	}
 }
 .clear{
 	clear: both;
