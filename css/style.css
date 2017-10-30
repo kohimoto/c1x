@@ -1121,3 +1121,7 @@ footer .copyright p{
 .services.e-commerce .contents-bottom .t-section-inner {
 	padding-bottom: 50px
 }
+
+.js .animate-box {
+  opacity: 0;
+}
