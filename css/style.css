@@ -232,9 +232,6 @@ header {
 .head-center.various h2 span{
   font-size: 26px;
 }
-.contents-top {
-  padding-bottom: 80px;
-}
 .contents-top h3 {
   font-size: 30px;
   text-align: center;
@@ -245,6 +242,9 @@ header {
 }
 .contents-top p {
   line-height: 1.8;
+}
+.home .contents-top {
+  padding: 80px 0;
 }
 .cantents-picture .cantents-picture-innner {
   position: relative;
