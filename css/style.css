@@ -956,9 +956,9 @@ footer .copyright p{
 	height: 80px;
 }
 .services.e-commerce .contents-middle .line.middle {
-    padding-left: 330px;
-    height: auto;
-    text-align: center;
+  padding-left: 330px;
+  height: 65px;
+  text-align: center;
 }
 .services .line.top {
 	text-align: center;
