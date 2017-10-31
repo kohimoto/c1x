@@ -218,7 +218,8 @@ header {
 .head-top .head-top-right .menu-container ul li.services:hover{
 	height: 400px
 }
-.head-top .head-top-right .menu-container ul li.services a:hover + ul {
+.head-top .head-top-right .menu-container ul li.services a:hover + ul,
+.head-top .head-top-right .menu-container ul li.services:hover ul {
 	animation: fadeIn 0.8s ease 0s 1 normal;
 	-webkit-animation: fadeIn 0.8s ease 0s 1 normal;
 	display: block;
