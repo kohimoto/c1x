@@ -207,7 +207,8 @@ header {
   color: #fff;
 }
 .head-top .head-top-right .menu-container ul li a:hover{
-  font-weight: 700;
+  /*font-weight: 700;*/
+	opacity: 0.7;
 }
 .head-top.various .head-top-right .menu-container ul li a{
   color: #000;
@@ -239,7 +240,7 @@ header {
 	position: absolute;
 	width: auto;
 	top: 40px;
-	left: -72px;
+	left: -75px;
 	display: none;
 }
 .head-top .head-top-right .menu-container ul li.services ul:before {
