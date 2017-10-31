@@ -207,7 +207,6 @@ header {
   color: #fff;
 }
 .head-top .head-top-right .menu-container ul li a:hover{
-  /*font-weight: 700;*/
 	opacity: 0.7;
 }
 .head-top.various .head-top-right .menu-container ul li a{
@@ -228,11 +227,7 @@ header {
 .head-top .head-top-right .menu-container ul li.services a + ul:hover {
 	display: block;
 }
-.head-top .head-top-right .menu-container ul li.services ul {
-	background-color: rgba(0,0,0,0.7);
-	padding: 35px 28px;
-	overflow: visible;
-}
+
 .head-top .head-top-right .menu-container ul li.services ul {
 	background-color: rgba(0,0,0,0.7);
 	padding: 35px 28px;
@@ -241,7 +236,8 @@ header {
 	width: auto;
 	top: 40px;
 	left: -75px;
-	display: none;
+	display: block;
+	overflow: visible;
 }
 .head-top .head-top-right .menu-container ul li.services ul:before {
 	content: "";
