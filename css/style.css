@@ -60,14 +60,10 @@ body {
 	width: 1024px;
 }
 .head-top.various{
-	position: relative;
-	top: 0;
+	top: 43px;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	overflow: hidden;
-	padding: 26px 0;
-	width: 1024px;
 }
 .head-top.various + .head-img{
 	height: 470px;
@@ -83,6 +79,7 @@ body {
 }
 .iconarea{
 	border-bottom: 1px solid #dcdcdc;
+	margin-bottom: 95px;
 }
 .iconarea .sns{
 	width: 1024px;
@@ -113,6 +110,16 @@ header .navbar-shrink{
 }
 header .navbar-shrink .head-top{
 	padding-top: 18px;
+}
+header .navbar-shrink .head-top.various {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 18px 0 26px;
+	width: 1024px;
 }
 header .navbar-shrink .head-top .head-top-right .menu-container ul li a{
 	color: #000;
@@ -183,14 +190,13 @@ header {
   float: left;
 }
 .head-top.various .head-top-left img{
- 	/*width: 123px;*/
 	height: 53px;
 }
 .head-top .head-top-right{
   float:right;
 }
 .head-top .head-top-right .menu-container ul{
-  overflow: hidden;
+	overflow: hidden;
   padding-top: 18px;
 }
 .head-top .head-top-right .menu-container ul li{
@@ -206,6 +212,69 @@ header {
 .head-top.various .head-top-right .menu-container ul li a{
   color: #000;
 }
+.head-top .head-top-right .menu-container ul li.services {
+	position: relative;
+}
+.head-top .head-top-right .menu-container ul li.services:hover{
+	height: 400px
+}
+.head-top .head-top-right .menu-container ul li.services a:hover + ul {
+	animation: fadeIn 0.8s ease 0s 1 normal;
+	-webkit-animation: fadeIn 0.8s ease 0s 1 normal;
+	display: block;
+}
+.head-top .head-top-right .menu-container ul li.services a + ul:hover {
+	display: block;
+}
+.head-top .head-top-right .menu-container ul li.services ul {
+	background-color: rgba(0,0,0,0.7);
+	padding: 35px 28px;
+	overflow: visible;
+}
+.head-top .head-top-right .menu-container ul li.services ul {
+	background-color: rgba(0,0,0,0.7);
+	padding: 35px 28px;
+	z-index: 1;
+	position: absolute;
+	width: auto;
+	top: 40px;
+	left: -72px;
+	display: none;
+}
+.head-top .head-top-right .menu-container ul li.services ul:before {
+	content: "";
+  border:8px solid transparent;
+  display: inline-block;
+  position: absolute;
+  border-bottom-color: #000;
+  margin-left: -8px;
+  left: 50%;
+  top: -16px;
+	opacity: 0.7;
+}
+.head-top .head-top-right .menu-container ul li.services ul li {
+	float: none;
+	font-size: 14px;
+	line-height: 1;
+	padding:0 12px 12px;
+	border-bottom: 1px solid #888;
+	margin-bottom: 16px;
+	width: 248px;
+	overflow: hidden;
+}
+.head-top .head-top-right .menu-container ul li.services ul li:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: 0;
+}
+.head-top .head-top-right .menu-container ul li.services ul li a{
+	color: #fff;
+}
+.head-top .head-top-right .menu-container ul li.services ul li i{
+	text-align: right;
+	font-size: 12px;
+	float: right;
+}
 .head-center{
   position: absolute;
   top: 50%;
@@ -217,6 +286,7 @@ header {
   transform: translate(-50%,-50%);
   text-align: center;
   width: 1024px;
+	z-index: 0;
 }
 .head-center.various{
   top: 60%;
