@@ -963,6 +963,10 @@ footer .copyright p{
 .services .line.top {
 	text-align: center;
 }
+.services .line.bottom {
+	text-align: center;
+	height: 200px;
+}
 .services.direct .t-column section{
 	padding-bottom: 0;
 }
