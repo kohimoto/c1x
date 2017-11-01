@@ -472,6 +472,9 @@ footer .copyright p{
 /* =======================================================
 * About
 * ============241px=========================================== */
+.about .contents-top{
+	padding-bottom: 80px;
+}
 .about .leader{
 	height: 246px;
 	margin-bottom: 12px;
@@ -693,6 +696,9 @@ footer .copyright p{
 /* =======================================================
 * Career
 * ============241px=========================================== */
+.career .contents-top{
+	padding-bottom: 80px;
+}
 .career .leader_u{
 	height: 252.15px;
 	margin-bottom: 5px;
