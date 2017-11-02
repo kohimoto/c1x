@@ -20,12 +20,10 @@ var cbpAnimatedHeader = (function() {
 	function scrollPage() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
-			//classie.add( header, 'navbar-shrink' );
-			$('.wrap-head').addClass('navbar-shrink');
+			$('.wrap-head').addClass("navbar-shrink fadeout");
 			$('.navbar-shrink h1 img').attr('src','/images/common/c1x_logo.png');
 		}
 		else {
-			//classie.remove( header, 'navbar-shrink' );
 			$('.wrap-head').removeClass('navbar-shrink');
 			$('.head-top .head-home h1 img').attr('src','/images/common/c1x_logo_white.png');
 		}
