@@ -217,18 +217,18 @@ if(isset($lang_flg)){
 
 	<div class="sns">
 	<ol class="social">
-		<li><a href="#" class="cs-open-modal"><i class="cs-in fa"></i><?=$language?><i class="cs-down fa fa-angle-down"></i></li></a>
+		<li class="open-modal"><a href="#" class="cs-open-modal"><i class="cs-in fa"></i><?=$language?><i class="cs-down fa fa-angle-down"></i>
+		<ul class="cs-modal-content">
+		<li class="lang <?=$disp_jp?>"><a href="#">Japanese</a></li>
+		<li class="lang <?=$disp_en?>"><a href="/">English</a></li>
+		</ul>
+
+		</li></a>
 		<li class="social-fa"><a target="_self" href="#"><i class="fa fa-facebook"></i></a></li>
 		<li class="social-in"><a target="_self" href="#"><i class="fa fa-twitter"></i></a></li>
 		<li class="social-in"><a target="_self" href="#"><i class="fa fa-linkedin"></i></a></li>
 	</ol>
 	</div>
-	</div>
-	<div class="cs-modal-content">
-	<ul>
-	<li class="lang <?=$disp_jp?>"><a href="/jp/about">Japanese</a></li>
-	<li class="lang <?=$disp_en?>"><a href="/">English</a></li>
-	</ul>
 	</div>
 	<div class="wrap-head">
 	<div class="head-top <?=$head_class?>">

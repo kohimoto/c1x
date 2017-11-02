@@ -184,6 +184,10 @@ header .navbar-shrink .head-top .head-top-right .menu-container ul li a{
 .navbar-shrink h1 img{
 	height: 53px;
 }
+header .open-modal {
+	width: 120px;
+	text-align: center;
+}
 header .cs-open-modal{
 	font-size: 14px;
 }
@@ -191,18 +195,24 @@ header .cs-open-modal .cs-down{
 	padding-left: 5px;
 }
 header .cs-modal-content{
-	width: 150px;
+	width: 140px;
 	position: absolute;
 	top: 60px;
-	right: 478px;
-	background: #fff;
-	/*text-align: center;*/
+	right: 543px;
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
 	font-size: 14px;
 	z-index: 3;
 	display: none;
+	padding: 10px;
+	
 }
-header .cs-modal-content ul li{
+header .cs-modal-content  li.lang{
 	line-height: 1.5;
+	padding-left: 0;
+}
+header .cs-modal-content a{
+	color: #fff;
 }
 header .cs-modal-content .disp_lang{
 	display: none;
