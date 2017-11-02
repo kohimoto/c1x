@@ -95,11 +95,6 @@ body {
 	padding-left: 24px;
 }
 header .navbar-shrink{
-	-webkit-transition: all 1s;
-	-moz-transition: all 1s;
-	-ms-transition: all 1s;
-	-o-transition: all 1s;
-	transition: all 1s;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -107,55 +102,16 @@ header .navbar-shrink{
 	width: 100%;
 	z-index: 5;
 	background: #fff;
-	opacity: 0.8;
-	height: 95px;
-	/*
-	animation: fadeIn 0.8s ease 0s 1 normal;
-	-webkit-animation: fadeIn 0.8s ease 0s 1 normal;
-	*/
-}
-/*
-header .head-top {
-	-webkit-transition: all 1s;
-	-moz-transition: all 1s;
-	-ms-transition: all 1s;
-	-o-transition: all 1s;
-	transition: all 1s;
-	background: #fff;
-	opacity: 0;
-	height: 95px;
-}
-*/
-header .head-top .navbar-shrink{
-	/*
-	-webkit-transition: all 1s;
-	-moz-transition: all 1s;
-	-ms-transition: all 1s;
-	-o-transition: all 1s;
-	transition: all 1s;
-	*/
-	position: fixed;
-	top: 0;
-	left: 0;
-	margin: 0 auto;
-	width: 100%;
-	z-index: 5;
-	/*
-	background: #fff;
-	opacity: 0.8;
-	*/
-	background-color: rgba(255,255,255,0.8);
-
+	opacity: 0.9;
 	height: 95px;
 	animation: fadeIn 0.8s ease 0s 1 normal;
 	-webkit-animation: fadeIn 0.8s ease 0s 1 normal;
 }
-/*
 @keyframes fadeIn{
 	0%{opacity: 0}
-	100%{opacity: 0.8}
+	100%{opacity: 0.9}
 }
-*/
+
 header .navbar-shrink .head-top{
 	padding-top: 18px;
 }
