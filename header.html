@@ -65,66 +65,170 @@ $now_uri = $_SERVER["REQUEST_URI"];
 $head_img_arr["about"]["img"]          = "/images/about/header-about-01.jpg";
 $head_img_arr["about"]["w_main"]       = "About us";
 $head_img_arr["about"]["w_sub"]        = "10 offices across the glove, and growing strong";
+$head_img_arr["about"]["selected"]     = "about";
 
 $head_img_arr["contact"]["img"]        = "/images/contact/header-contact-01.jpg";
 $head_img_arr["contact"]["w_main"]     = "";
 $head_img_arr["contact"]["w_sub"]      = "";
+$head_img_arr["contact"]["selected"]   = "contact";
 
 
 $head_img_arr["career"]["img"]         = "/images/career/header-careers-01.jpg";
 $head_img_arr["career"]["w_main"]      = "CAREERS";
 $head_img_arr["career"]["w_sub"]       = "Work with a team of passionate and creative people from around the globe";
+$head_img_arr["career"]["selected"]    = "career";
 
 
 $head_img_arr["idsp"]["img"]           = "/images/services/header-idsp-01.jpg";
 $head_img_arr["idsp"]["w_main"]        = "iDSP";
 $head_img_arr["idsp"]["w_sub"]         = "10 offices across the glove, and growing strong";
+$head_img_arr["idsp"]["selected"]      = "services";
 
 $head_img_arr["issp"]["img"]           = "/images/services/header-issp-01.jpg";
 $head_img_arr["issp"]["w_main"]        = "iSSP";
 $head_img_arr["issp"]["w_sub"]         = "10 offices across the glove, and growing strong";
+$head_img_arr["issp"]["selected"]      = "services";
 
 $head_img_arr["direct"]["img"]         = "/images/services/header-issp-01.jpg";
 $head_img_arr["direct"]["w_main"]      = "iSSP";
 $head_img_arr["direct"]["w_sub"]       = "10 offices across the glove, and growing strong";
+$head_img_arr["direct"]["selected"]    = "services";
+
 
 $head_img_arr["e-commerce"]["img"]     = "/images/services/header-issp-01.jpg";
 $head_img_arr["e-commerce"]["w_main"]  = "iSSP";
 $head_img_arr["e-commerce"]["w_sub"]   = "10 offices across the glove, and growing strong";
+$head_img_arr["e-commerce"]["selected"]    = "services";
 
 $head_img_arr["mobile"]["img"]     = "/images/services/header-issp-01.jpg";
 $head_img_arr["mobile"]["w_main"]  = "iSSP";
 $head_img_arr["mobile"]["w_sub"]   = "10 offices across the glove, and growing strong";
+$head_img_arr["mobile"]["selected"]    = "services";
 
 $head_img_arr["headertag"]["img"]      = "/images/services/header-issp-01.jpg";
 $head_img_arr["headertag"]["w_main"]   = "iSSP";
 $head_img_arr["headertag"]["w_sub"]    = "10 offices across the glove, and growing strong";
+$head_img_arr["headertag"]["selected"]    = "services";
 
 
 if(is_array($head_img_arr)){
-	$head_class = "";
-	$img_src  = "/images/home/home-main.jpg";
-	$img_word_sub = "MARKETING AUTOMATION";
-	$img_word_main = "The Prefect Dose of";
+	$head_class     = "";
+	$img_src        = "/images/home/home-main.jpg";
+	$img_word_sub   = "MARKETING AUTOMATION";
+	$img_word_main  = "The Prefect Dose of";
+	$selected_page  = "";
 	foreach($head_img_arr as $key => $val){
 		if(preg_match("%".$key."%", $now_uri)){
 			$img_src       = $val["img"];
 			$img_word_sub  = $val["w_sub"];
 			$img_word_main = $val["w_main"];
-			$head_class = "various";
+			$head_class    = "various";
+			$selected_page = $val["selected"];
 		}
 	}
 
 }
+//select page bold
+if(isset($selected_page)){
+	$selected_service = "";
+	$selected_about = "";
+	$selected_career = "";
+	$selected_contact = "";
+
+	switch($selected_page){
+
+	case "services":
+		$selected_service = "selected";
+		$selected_about = "";
+		$selected_career = "";
+		$selected_contact = "";
+		break;
+	case "about":
+		$selected_about   = "selected";
+		$selected_service = "";
+		$selected_career = "";
+		$selected_contact = "";
+		break;
+	case "career":
+		$selected_career   = "selected";
+		$selected_service = "";
+		$selected_about = "";
+		$selected_contact = "";
+		break;
+	case "contact":
+		$selected_contact   = "selected";
+		$selected_service = "";
+		$selected_about = "";
+		$selected_career = "";
+		break;
+	default:
+		$selected_contact   = "";
+		$selected_service = "";
+		$selected_about = "";
+		$selected_career = "";
+		break;
+
+	}
+}
+
+//language modal
+$language_arr[jp] = "jp";
+
+if(isset($language_arr) && count($language_arr) > 0){
+	$lang_flg = "";
+	foreach($language_arr as $lk => $lv){
+		if(preg_match("%".$lv."%", $now_uri)){
+			$lang_flg = $lv;
+		}
+	}
+}
+file_put_contents("/tmp/kohi.txt","\nflg:".print_r($lang_flg,true),FILE_APPEND);
+$language = "English";
+$disp_jp  = "";
+$disp_en  = "";
+if(isset($lang_flg)){
+	switch($lang_flg){
+
+	case "jp":
+	$language = "Japanese";
+	$disp_jp  = "disp_lang";
+	break;
+
+	default:
+	$language = "English";
+	$disp_en  = "disp_lang";
+	break;
+      
+
+	}
+}
+
 ?>
 	<div class="iconarea">
+	<!--div class="cs-top-modal cs-lang-top-modal">
+	<a href="#" class="cs-open-modal"><i class="cs-in fa fa-globe"></i>English<i class="cs-down fa fa-angle-down"></i></a>
+	<div class="cs-modal-content">
+	<ul>
+	<li><a href="/jp">Japanese</a></li>
+	<li><a href="/">English</a></li>
+	</ul>
+	</div>
+	</div-->
+
 	<div class="sns">
 	<ol class="social">
+		<li><a href="#" class="cs-open-modal"><i class="cs-in fa"></i><?=$language?><i class="cs-down fa fa-angle-down"></i></li></a>
 		<li class="social-fa"><a target="_self" href="#"><i class="fa fa-facebook"></i></a></li>
 		<li class="social-in"><a target="_self" href="#"><i class="fa fa-twitter"></i></a></li>
 		<li class="social-in"><a target="_self" href="#"><i class="fa fa-linkedin"></i></a></li>
 	</ol>
 	</div>
+	</div>
+	<div class="cs-modal-content">
+	<ul>
+	<li class="lang <?=$disp_jp?>"><a href="/jp/about">Japanese</a></li>
+	<li class="lang <?=$disp_en?>"><a href="/">English</a></li>
+	</ul>
 	</div>
 	<div class="wrap-head">
 	<div class="head-top <?=$head_class?>">
@@ -146,7 +250,7 @@ if(is_array($head_img_arr)){
 						<div class="menu-container" id="">
 							<ul class="nav navbar-nav navbar-right">
 								<li class='menu-item'><a href="/">Home</a></li>
-                <li class='menu-item services'>
+                <li class='menu-item services <?=$selected_service?>'>
                   <a href="">Services</a>
                   <ul>
                     <li><a href="/services/idsp.html">iDSP<i class="fa fa-chevron-right fa-1x"></i></a></li>
@@ -157,9 +261,9 @@ if(is_array($head_img_arr)){
                     <li><a href="/services/e-commerce.html">&nbsp;&nbsp;Native EC<i class="fa fa-chevron-right fa-1x"></i></a></li>
                   </ul>
                 </li>
-								<li class='menu-item'><a href="/about">About</a></li>
-								<li class='menu-item'><a href="/career">Career</a></li>
-								<li class='menu-item'><a href="/contact">Contact</a></li>
+								<li class='menu-item <?=$selected_about?>'><a href="/about">About</a></li>
+								<li class='menu-item <?=$selected_career?>'><a href="/career">Career</a></li>
+								<li class='menu-item <?=$selected_contact?>'><a href="/contact">Contact</a></li>
 							</ul>
 						</div>
 					</div>
