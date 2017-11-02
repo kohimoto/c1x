@@ -28,6 +28,15 @@ $(function(){
 	$('.location figure').hover(handleHoverIn, handleHoverOut);
 
 	/**
+		Header language area
+					**/
+	$('.cs-open-modal').click(function(){
+		$('.cs-modal-content').toggle();
+	});
+
+
+
+	/**
 		move line	
 				**/
 	//page issp 
