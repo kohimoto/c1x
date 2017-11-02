@@ -34,6 +34,26 @@ $(function(){
 		$('.cs-modal-content').toggle();
 	});
 
+	$('#request-form input[name=submit]').click(function(){
+		if(!$('input[name=name]').val){
+			alert('please write name!');
+			return false;
+		}
+		if(!$('input[name=email]').val){
+			alert('please write email!');
+			return false;
+		}
+
+	});
+
+
+
+	/**
+		Rrequese demo area
+					**/
+	$('.request').click(function(){
+		$('.request-area').fadeIn();
+	});	
 
 
 	/**
