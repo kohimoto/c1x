@@ -102,8 +102,8 @@ header .wrap-head{
 	background-image: none;
 }
 header .wrap-head.fadeout{
-	animation: fadeout 0.8s ease 0s 1 normal;
-	-webkit-animation: fadeout 0.8s ease 0s 1 normal;
+	animation: fadeOut 0.5s ease 0s 1 normal;
+	-webkit-animation: fadeOut 0.5s ease 0s 1 normal;
 }
 header .wrap-head.navbar-shrink{
 	position: fixed;
@@ -121,7 +121,10 @@ header .wrap-head.navbar-shrink{
 	0%{opacity: 0}
 	100%{opacity: 0.9}
 }
-
+@keyframes fadeOut{
+	0%{opacity: 0}
+	100%{opacity: 0.9}
+}
 header .navbar-shrink .head-top{
 	padding-top: 18px;
 }
