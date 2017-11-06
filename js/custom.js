@@ -33,6 +33,14 @@ $(function(){
 	$('.cs-open-modal').click(function(){
 		$('.cs-modal-content').toggle();
 	});
+
+	/**
+		Rrequese demo area
+					**/
+	$('.request').click(function(){
+		$('.request-area').fadeIn();
+	});	
+
 	$('#thankarea').css('display','none');
 	$('#request-form').submit(function(){
 	var checkName = $('input[name=name]').val();
@@ -62,13 +70,6 @@ $(function(){
 	});
 
 
-
-	/**
-		Rrequese demo area
-					**/
-	$('.request').click(function(){
-		$('.request-area').fadeIn();
-	});	
 
 
 	/**
