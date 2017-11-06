@@ -285,7 +285,7 @@ include_once("../header.html");
 		<h3>Interested?</h3>
     <div class="button-area">
       <div class="button orange">
-        <a href=""><button>Request a demo</button></a>
+        <button class="request">Request a demo</button>
       </div>
       <div class="button orange">
         <a href=""><button>Have a question</button></a>
@@ -293,6 +293,19 @@ include_once("../header.html");
     </div>
 	</div>
 </div>
+<div class="request-area">
+  <div id="inputarea">
+    <form action="#" method="post" name="request-form" id="request-form">
+      <input type="text" name="name" size="50" maxlength="40" placeholder="Name">
+      <input type="email" name="email" size="50" maxlength="40" placeholder="Email address">
+      <input type="submit" name="submit" value="Send">
+    </form>
+  </div>
+	<div id="thankarea">
+	  <p>Thank you so much!We will get back to you as soon as possible!</p>
+	</div>
+</div>
+
 <?
 include_once("../footer.html");
 ?>

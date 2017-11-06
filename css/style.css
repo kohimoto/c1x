@@ -941,7 +941,6 @@ footer .copyright p{
 	font-size: 16px;
 	height: 377px;
 }
-
 .services .t-column .left{
 	float: left;
 	width: 460px;
@@ -1008,7 +1007,6 @@ footer .copyright p{
 .services .t-section .t-section-inner section .text p {
 	text-align: center;
 }
-
 .services.idsp .t-column section .text h5{
   color: #1f69b4;
 }
@@ -1279,8 +1277,6 @@ footer .copyright p{
 	border: 15px solid transparent;
 	border-bottom: 15px solid #f1f1f1;
 }
-
-
 .request-area div{
 	padding: 70px 0;
 }
@@ -1303,9 +1299,12 @@ footer .copyright p{
 .request-area input[name="submit"] {
 	width: 150px;
 	padding: 14px;
-	background-color: #1f69b4;
+	background-color: #f7951d;
 	border: none;
 	color: #fff;
+}
+.request-area.blue input[name="submit"] {
+	background-color: #1f69b4;
 }
 .request-area input:hover[name="submit"] {
 	opacity: 0.8;
@@ -1329,7 +1328,6 @@ footer .copyright p{
 .services.e-commerce .contents-bottom .t-section-inner {
 	padding-bottom: 50px
 }
-
 .animate-box {
   opacity: 0;
 }
