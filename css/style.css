@@ -94,8 +94,6 @@ body {
 	display: inline-block;
 	padding-left: 24px;
 }
-
-
 header .wrap-head{
 	width: 100%;
 	z-index: 5;
@@ -107,7 +105,6 @@ header .wrap-head.fadeout{
 	animation: fadeout 0.8s ease 0s 1 normal;
 	-webkit-animation: fadeout 0.8s ease 0s 1 normal;
 }
-
 header .wrap-head.navbar-shrink{
 	position: fixed;
 	top: 0;
@@ -124,12 +121,6 @@ header .wrap-head.navbar-shrink{
 	0%{opacity: 0}
 	100%{opacity: 0.9}
 }
-@-webkit-keyframes fadeout {
-	0% {opacity :0.9;}
-	100% {opacity:0;}
-}
-
-
 
 header .navbar-shrink .head-top{
 	padding-top: 18px;
@@ -1266,6 +1257,57 @@ footer .copyright p{
 	margin: 0 auto;
 	width: 700px;
 	padding-bottom: 100px;
+}
+.request-area {
+	width: 100%;
+	background-color: #f1f1f1;
+	text-align: center;
+	margin: -65px 0 100px 0;
+	position: relative;
+	display: none;
+
+}
+.request-area:before{
+	content: "";
+	position: absolute;
+	top: -30px;
+	left: 40%;
+ 	margin-left: -15px;
+	border: 15px solid transparent;
+	border-bottom: 15px solid #f1f1f1;
+}
+
+
+.request-area div{
+	padding: 70px 0;
+}
+.request-area input {
+	border: solid 1px #e4e4e4;
+	margin-left: 20px;
+	background: #fff;
+}
+.request-area input[name="name"] {
+	width: 18%;
+	height: 50px;
+	line-height: 50px;
+}
+.request-area input[name="email"] {
+	width: 27%;
+	height: 50px;
+	line-height: 50px;
+}
+.request-area input[name="submit"] {
+	width: 150px;
+	padding: 14px;
+	background-color: #1f69b4;
+	border: none;
+	color: #fff;
+}
+.request-area input::-ms-input-placeholder,
+.request-area input::-webkit-input-placeholder,
+.request-area input::-moz-placeholder {
+	position:relative;
+	left: 50px;
 }
 .contents-bottom .button {
 	float: left;

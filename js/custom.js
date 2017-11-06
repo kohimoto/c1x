@@ -33,7 +33,42 @@ $(function(){
 	$('.cs-open-modal').click(function(){
 		$('.cs-modal-content').toggle();
 	});
+	$('#thankarea').css('display','none');
+	$('#request-form').submit(function(){
+	var checkName = $('input[name=name]').val();
+	var checkEmail = $('input[name=email]').val();
+		if(!checkName){
+			alert('please write name!');
+			return false;
+		}
+		if(!checkEmail){
+			alert('please write email!');
+			return false;
+		}
+		var data ={name:checkName,email:checkEmail} 
+		$.ajax({
 
+			type: "POST",
+			url : "/mail1.php",
+			data: data,
+			success: function(data_r){
+			$('#inputarea').css('display','none');
+			$('#thankarea').css('display','block');
+			
+			}
+		});
+		return false;
+
+	});
+
+
+
+	/**
+		Rrequese demo area
+					**/
+	$('.request').click(function(){
+		$('.request-area').fadeIn();
+	});	
 
 
 	/**
