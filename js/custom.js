@@ -33,16 +33,31 @@ $(function(){
 	$('.cs-open-modal').click(function(){
 		$('.cs-modal-content').toggle();
 	});
-
-	$('#request-form input[name=submit]').click(function(){
-		if(!$('input[name=name]').val){
+	$('#thankarea').css('display','none');
+	$('#request-form').submit(function(){
+	var checkName = $('input[name=name]').val();
+	var checkEmail = $('input[name=email]').val();
+		if(!checkName){
 			alert('please write name!');
 			return false;
 		}
-		if(!$('input[name=email]').val){
+		if(!checkEmail){
 			alert('please write email!');
 			return false;
 		}
+		var data ={name:checkName,email:checkEmail} 
+		$.ajax({
+
+			type: "POST",
+			url : "/mail1.php",
+			data: data,
+			success: function(data_r){
+			$('#inputarea').css('display','none');
+			$('#thankarea').css('display','block');
+			
+			}
+		});
+		return false;
 
 	});
 
