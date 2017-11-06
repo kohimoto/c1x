@@ -1311,32 +1311,9 @@ footer .copyright p{
 }
 .request-area input::-ms-input-placeholder,
 .request-area input::-webkit-input-placeholder,
-.t-area input::-moz-placeholder {
+.request-area input::-moz-placeholder {
 	position:relative;
 	left: 50px;
-}
-.request-area .caution{
-	font-size: 14px;
-	background: rgba(255,0,0,0.7);
-	padding: 20px;
-	position: relative;
-	display: inline-block;
-	
-}
-.request-area .caution:before{
-	content: "";
-	position: absolute;
-	/*top: 100%;*/
-	left: 50%;
-	bottom: -8px;
- 	margin-left: -15px;
-	border: 15px solid transparent;
-	border-bottom: 15px solid rgba(255,0,0,0.7);
-}
-.request-area .caution1{
-	position: absolute;
-	top: -25px;
-	left: 500px;
 }
 .contents-bottom .button {
 	float: left;

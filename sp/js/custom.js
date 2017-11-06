@@ -46,10 +46,7 @@ $(function(){
 	var checkName = $('input[name=name]').val();
 	var checkEmail = $('input[name=email]').val();
 		if(!checkName){
-			var caution_name = "";	
-      			caution_name = '<div class="caution caution1"><p>Please input name!</p></div>';
-			$('#inputarea').append(caution_name);
-			//alert('please write name!');
+			alert('please write name!');
 			return false;
 		}
 		if(!checkEmail){
