@@ -1,4 +1,12 @@
 <?
+//UA判定
+include("../inc/ua.php");
+if($ua_flg == "1"){
+//SPの場合
+	
+include("../sp/services/direct.html");
+
+}else{
 include_once("../header.html");
 ?>
 <div class="sub-header">
@@ -295,4 +303,7 @@ include_once("../header.html");
 </div>
 <?
 include_once("../footer.html");
+?>
+<?
+}
 ?>
