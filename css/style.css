@@ -59,8 +59,8 @@ body {
 	padding-top: 52px;
 	width: 1024px;
 }
-.head-top .menu-item.selected a{
-	font-weight: bold;
+.head-top .menu-item.selected > a{
+	font-weight: 600;
 }
 .head-top.various{
 	top: 43px;
@@ -1288,6 +1288,7 @@ footer .copyright p{
 	border: solid 1px #e4e4e4;
 	margin-left: 20px;
 	background: #fff;
+	padding-left: 16px;
 }
 .request-area input[name="name"] {
 	width: 18%;
@@ -1305,6 +1306,9 @@ footer .copyright p{
 	background-color: #1f69b4;
 	border: none;
 	color: #fff;
+}
+.request-area input:hover[name="submit"] {
+	opacity: 0.8;
 }
 .request-area input::-ms-input-placeholder,
 .request-area input::-webkit-input-placeholder,
