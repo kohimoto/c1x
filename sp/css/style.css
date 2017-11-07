@@ -197,7 +197,7 @@ button{
 	font-size: 12px;
 	line-height: 1;
 	padding: 20px 0;
-	width: 320px;
+  width: 284px;
 }
 .button button:hover {
 	opacity: 0.8;
@@ -521,13 +521,14 @@ footer{
   background-color: #191919;
   color: #fff;
   text-align: center;
-  padding: 60px 0;
+  padding: 30px 0;
 }
 footer h1 img{
-  padding-bottom: 25px;
+  padding-bottom: 15px;
+	width: 60px;
 }
 footer .copyright p{
-  font-size: 14px;
+  font-size: 6px;
 }
 /* =======================================================
 * About
@@ -1142,106 +1143,35 @@ footer .copyright p{
 }
 .over-contents {
 	width: 100%;
-	max-width: 2000px;
-	min-width: 1024px;
+	background-color: #f8f8f8;
 	margin: 0 auto;
-	overflow: hidden;
+  padding: 25px 0;
 }
 .over-contents .contents-inner{
-	position: relative;
-	width: 1024px;
+	width: 320px;
 	margin: 0 auto;
 }
 .over-contents .over-contents-inner{
-	position: relative;
-	height: 667px;
-	float:left;
+	width: 320px;
+	margin: 0 auto;
+}
+.over-contents .over-contents-inner img{
 	width: 100%;
 }
-.over-contents .contents-inner .line-position {
-	position: absolute;
-	padding-left: 405px;
-	top: 460px;
-}
 .over-contents .contents-inner h5{
-	 color: #1f69b4;
-	 font-size: 22px;
-	padding-bottom: 25px
+	color: #1f69b4;
+	font-size: 14px;
+	padding-bottom: 15px
 }
-.over-contents .over-contents-inner .over-position {
-	position: absolute;
-	left: -200px;
-}
-.over-contents .contents-inner .pointer-position{
-	position: absolute;
-	padding-left: 512px;
-	top: 240px;
-}
-.over-contents .contents-inner .pointer-position .cercle{
-	width: 12px;
-	height: 12px;
-	position: absolute;
-	left: 178px;
-}
-.over-contents .contents-inner .pointer-position .pointer{
-	position: absolute;
-	left: 186px;
-	top: -11px;
-}
-.over-contents .contents-inner .pointer-position .text{
-	position: absolute;
-	top: -24px;
-	width: 512px;
-}
-.over-contents.idsp2 .over-contents-inner .over-position {
-	right: -200px;
-	left: auto;
-}
-.over-contents.idsp2 .contents-inner .pointer-position {
-  position: absolute;
-  padding-right: 512px;
-  padding-left: 0;
-  top: 240px;
-}
-.over-contents.idsp2  .contents-inner .pointer-position .pointer {
-  left: 500px;
-}
-.over-contents.idsp2 .contents-inner .pointer-position .cercle{
-	left: 801px;
-}
-
 .over-contents .over-contents-inner.headertag .t-column,
 .over-contents .over-contents-inner.e-commerce .t-column {
-    overflow: hidden;
-    width: 1024px;
-		height: auto;
-    margin: 0 auto;
-}
-.over-contents .right-img {
-    position: absolute;
-		right:-200px;
-		top: 100px;
-		left: auto;
-}
-.over-contents .right-img.imac {
-    position: absolute;
-		top: 20px;
-		left: auto;
-		right:-100px;
+  width: 320px;
+	height: auto;
+  margin: 0 auto;
 }
 .over-contents .over-contents-inner.headertag,
 .over-contents .over-contents-inner.e-commerce {
 	height: auto;
-}
-.contents-inner .around.around_snippets svg{
-	position: absolute;
-	left: 149px;
-	top: -23px;
-}
-.contents-inner .around.around_uupointer svg{
-	position: absolute;
-	left: 773px;
-	top: -23px;
 }
 .contents-bottom .point {
   margin-bottom: 25px;
@@ -1260,7 +1190,7 @@ footer .copyright p{
 }
 .contents-bottom .button-area {
 	margin: 0 auto;
-	padding-bottom: 50px;
+  padding: 0 18px 50px;
 }
 .request-area {
 	width: 100%;
@@ -1269,7 +1199,6 @@ footer .copyright p{
 	margin: -65px 0 100px 0;
 	position: relative;
 	display: none;
-
 }
 .request-area:before{
 	content: "";
