@@ -551,7 +551,7 @@ footer .copyright p{
 	float: left;
 	margin-left: 12px;
 	*/
-	padding: 0 18px 18px 18px;
+	padding-bottom: 18px;
 }
 .about .pic:nth-child(odd){
 	/*margin-left: 0px;*/
@@ -591,9 +591,6 @@ footer .copyright p{
 }
 .about .pic_u:nth-child(3n+1){
 	margin-left: 0px;
-}
-.about .contents-top p{
-	padding: 0 18px;
 }
 .map{
 	width: 100%;
