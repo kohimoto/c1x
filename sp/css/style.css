@@ -1005,7 +1005,7 @@ footer .copyright p{
 	padding-left: 0;
 }
 .services .t-section .t-section-inner section .img {
-	height: 534px;
+	height: 170px;
 }
 .services .f-section .f-section-inner section .img img,
 .services .t-section .t-section-inner section .img img {
@@ -1016,7 +1016,7 @@ footer .copyright p{
 	text-align: center;
 }
 .services.idsp .t-column section {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 .services.idsp .t-column section .text h5{
   color: #1f69b4;
@@ -1114,7 +1114,7 @@ footer .copyright p{
 .services.direct .cantents-picture .cantents-picture-innner .services li.direct,
 .services.headertag .cantents-picture .cantents-picture-innner .services li.headertag,
 .services.mobile .cantents-picture .cantents-picture-innner .services li.mobile,
-.services.e-commerce .cantents-picture .cantents-picture-innner .services li.e-commerce {
+.services.e-commerce .cantents-picture .cantents-picture-innner .services li.native {
     border: 2px solid #f7951d;
 }
 .services.idsp .cantents-picture .cantents-picture-innner .services ul li h4 {
@@ -1132,10 +1132,6 @@ footer .copyright p{
 	padding-left: 111px;
 	text-align: center;
 }
-/*
-.services.mobile .contents-middle .right .img {
-	padding-top: 20px;
-}*/
 .services.mobile .contents-middle .right .img img {
 	width: 100%;
 }
@@ -1254,6 +1250,7 @@ footer .copyright p{
 }
 .services.e-commerce .contents-bottom h3 {
 	padding: 30px 0 50px;
+	font-size: 13px;
 }
 .services.e-commerce .contents-bottom .t-section-inner {
 	padding-bottom: 50px
