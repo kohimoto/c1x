@@ -782,9 +782,9 @@ footer .copyright p{
 }
 .career figcaption{
 	position: relative;
-	bottom: 230px;
+	bottom: 200px;
 	margin: 18px;
-	font-size: 12.67px;
+	/*font-size: 12.67px;*/
 	line-height: 21px;
 	color: #fff;
 	display: none;
