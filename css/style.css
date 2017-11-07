@@ -1328,15 +1328,21 @@ footer .copyright p{
 	position: absolute;
 	/*top: 100%;*/
 	left: 50%;
-	bottom: -8px;
+	bottom: -30px;
  	margin-left: -15px;
 	border: 15px solid transparent;
 	border-bottom: 15px solid rgba(255,0,0,0.7);
+	transform: rotate(180deg);
 }
 .request-area .caution1{
 	position: absolute;
-	top: -25px;
+	top: 0px;
 	left: 500px;
+}
+.request-area .caution2{
+	position: absolute;
+	top: 0px;
+	left: 900px;
 }
 .contents-bottom .button {
 	float: left;
