@@ -819,21 +819,17 @@ footer .copyright p{
 	border-bottom: solid 1px rgb(183,183,183);
 	margin-top: 52px;
 }
-.career section article{
-	width: 280px;
-	margin; 0 auto;
-}
 .career section article.explain{
 	float: left;
-	/*width: 100%;*/
+	width: 75%;
 }
 .career section article.explain h2{
-	font-size: 16px;
+	font-size: 26px;
 }
 .career section article.explain .place{
 	color: rgb(109,109,109);
 	margin-bottom: 40px;
-	font-size: 16px;
+	font-size: 26px;
 }
 .career section article.explain .place + p{
 	margin-bottom: 57px;
