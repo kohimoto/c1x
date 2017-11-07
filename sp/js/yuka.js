@@ -1,3 +1,4 @@
+/*
 $(function(){
 	$(window).scroll(function () {
 		if($(window).scrollTop() > 2400) {
@@ -14,3 +15,4 @@ $(function(){
 		}
 	});
 });
+*/

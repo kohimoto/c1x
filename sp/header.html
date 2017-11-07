@@ -26,6 +26,7 @@
 
 <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="/sp/css/style.css">
+<link rel="stylesheet" href="/sp/css/slick.css">
 <link rel="stylesheet" href="/css/animate.css">
 
 <script type="text/javascript" src="/js/jquery.min.js"></script>
@@ -33,7 +34,8 @@
 <!--script type="text/javascript" src="/js/sticky.js"></script-->
 <!--script type="text/javascript" src="/js/jquery.drawsvg.js"></script-->
 <!--script type="text/javascript" src="/js/custom.js"></script-->
-<!--script type="text/javascript" src="/js/yuka.js"></script-->
+<script type="text/javascript" src="/js/yuka.js"></script>
+<script type="text/javascript" src="/sp/js/slick.js"></script>
 
 <script src="/js/jquery.waypoints.min.js"></script>
 <script src="/js/jquery.countTo.js"></script>
@@ -47,9 +49,11 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-54834916-1', 'auto');
       ga('send', 'pageview');
-
 $(function(){
 	objectFitImages('.pic_img');
+});
+$(function() {
+	$('.slider').slick();
 });
 </script>
 
