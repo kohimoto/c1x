@@ -594,15 +594,15 @@ footer .copyright p{
 }
 .map{
 	width: 100%;
-	height: 1080px;
+	height: 600px;
 	background-color: rgb(235,235,235);
 	position: relative;
 	overflow: hidden;
 }
 .map h3{
-	font-size: 30px;
+	font-size: 16px;
 	text-align: center;
-	padding-top: 92px;
+	padding-top: 36px;
 }
 .map > div{
 	text-align: center;
@@ -617,7 +617,7 @@ footer .copyright p{
 	top: -150px;
 }
 .location > div{
-	width: 1024px;
+	width: 100%;
 	margin: 0 auto;
 }
 .location figure{
