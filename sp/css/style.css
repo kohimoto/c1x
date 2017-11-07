@@ -594,7 +594,7 @@ footer .copyright p{
 }
 .map{
 	width: 100%;
-	height: 600px;
+	height: 400px;
 	background-color: rgb(235,235,235);
 	position: relative;
 	overflow: hidden;
@@ -614,26 +614,25 @@ footer .copyright p{
 .location{
 	text-align: center;
 	position: relative;
-	top: -150px;
+	top: -50px;
+	width: 320px;
+	margin: 0 auto;
 }
 .location > div{
 	width: 100%;
 	margin: 0 auto;
 }
 .location figure{
-	width: 195px;
+	width: 320px;
 	/* display: inline-block;*/
-	float: left;
-	margin: 0;
+	/*float: left;*/
+	margin: 0 0 2px 0;
 	background: #000;
-	height: 301px;
-}
-.location figure:not(:nth-child(1)){
-	margin-left: 12px;
+	height: 100px;
 }
 .location figure img{
-	width: 195px;
-	height: 301px;
+	width: 100%;
+	height: 100px;
 	object-fit: cover;
 	object-position: 60% 50%;
 	opacity: 0.8;
@@ -642,9 +641,9 @@ footer .copyright p{
 	font-family: 'object-fit:cover; object-position: 60% 50%;'
 }
 .location figcaption{
-	font-size: 23px;
+	font-size: 16px;
 	position: relative;
-	bottom: 170px;
+	bottom: 58px;
 	color: #fff;
 }
 .location figcaption span{
@@ -653,20 +652,20 @@ footer .copyright p{
 .location figure figcaption:hover > span,
 .location figure img:hover + figcaption span{
 	display: block;
-	font-size: 14px;
-	position: absolute;
-	top: -75px;
-	text-align: left;
+	font-size: 12px;
 	margin: 15px;
-	line-height: 23px;
-}
-.location figure figcaption:hover > b,
-.location figure img:hover + figcaption b{
-	/*display: none;*/
+	line-height: 20px;
 	position: absolute;
-	top: -95px;
-	left: 0;
-	margin-left: 15px;
+	top: -50px;
+	text-align: left;
+}
+.location figure figcaption:hover > b.first_state,
+.location figure img:hover + figcaption b.first_state{
+	display: none;
+}
+.location .state b{
+	font-size: 16px;
+	margin-right: 10px;
 }
 .location figure:hover{
 	background: rgb(247,149,29);
