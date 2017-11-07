@@ -936,7 +936,7 @@ footer .copyright p{
   padding: 20px 0;
 }
 .services.e-commerce .contents-middle h3 {
-  padding: 20px 0 40px;
+  padding: 20px 0 25px;
 }
 .services .contents-middle p {
   line-height: 1.8;
@@ -944,6 +944,9 @@ footer .copyright p{
 }
 .services .contents-middle .t-column {
 	height: auto;
+}
+.services .contents-middle .imac {
+	padding-bottom: 25px;
 }
 .services.headertag .contents-middle h5,
 .services.e-commerce .contents-middle h5  {
@@ -1146,6 +1149,7 @@ footer .copyright p{
 .over-contents .contents-inner{
 	width: 320px;
 	margin: 0 auto;
+	padding: 0 18px;
 }
 .over-contents .over-contents-inner{
 	width: 320px;
@@ -1170,6 +1174,45 @@ footer .copyright p{
 .over-contents .over-contents-inner.e-commerce {
 	height: auto;
 }
+.e-commerce .over-contents .over-contents-inner {
+    padding-bottom: 45px;
+	}
+.e-commerce .over-contents .over-contents-inner .over-position {
+	min-height: 203px;
+}
+.e-commerce .over-contents .over-contents-inner .over-position img {
+	width: auto;
+	height: auto;
+	max-height: 203px;
+	max-width: 320px;
+	margin: 0 auto;
+}
+ul.slick-dots {
+	overflow: hidden;
+	position: absolute;
+	top: 240px;
+	left: 50%;
+	margin-left: -11px;
+}
+ul.slick-dots li {
+	background-color: #ddd;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+	float: left;
+	margin-left: 6px;
+}
+ul.slick-dots li:first-child {
+	margin-left: 0;
+}
+ul.slick-dots li.slick-active {
+	background-color: #aaa;
+}
+.e-commerce ul.slick-dots {
+	top: 250px;
+	margin-left: -18px;
+}
+
 .contents-bottom .point {
   margin-bottom: 25px;
 	line-height: 1;
@@ -1245,10 +1288,10 @@ footer .copyright p{
 	left: 50px;
 }
 .contents-bottom .button {
-	padding: 0 0 25px;;
+	padding: 0 0 10px;
 }
 .services.e-commerce .contents-bottom h3 {
-	padding: 30px 0 50px;
+	padding: 0 0 50px;
 	font-size: 13px;
 }
 .services.e-commerce .contents-bottom .t-section-inner {
@@ -1256,26 +1299,4 @@ footer .copyright p{
 }
 .animate-box {
   opacity: 0;
-}
-ul.slick-dots {
-	overflow: hidden;
-	position: absolute;
-	top: 240px;
-	left: 50%;
-	margin-left: -11px;
-}
-
-ul.slick-dots li {
-	background-color: #ddd;
-  width: 8px;
-  height: 8px;
-  border-radius: 4px;
-	float: left;
-	margin-left: 6px;
-}
-ul.slick-dots li:first-child {
-	margin-left: 0;
-}
-ul.slick-dots li.slick-active {
-	background-color: #aaa;
 }
