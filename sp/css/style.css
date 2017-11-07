@@ -980,11 +980,12 @@ footer .copyright p{
 	padding-bottom: 25px;
 }
 .services .f-section h3 {
-	padding: 20px 0 60px;
+	padding: 20px 0 25px;
 }
 .services .f-section .f-section-inner,
 .services .t-section .t-section-inner {
 	overflow: hidden;
+  padding-bottom: 25px;
 }
 .services .f-section .f-section-inner img {
 	padding-bottom: 20px;
@@ -1131,8 +1132,12 @@ footer .copyright p{
 	padding-left: 111px;
 	text-align: center;
 }
+/*
 .services.mobile .contents-middle .right .img {
-	padding-top: 60px;
+	padding-top: 20px;
+}*/
+.services.mobile .contents-middle .right .img img {
+	width: 100%;
 }
 .services.idsp h3 span{
 	color: #1f69b4;
