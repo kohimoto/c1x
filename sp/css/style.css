@@ -807,10 +807,11 @@ footer .copyright p{
 	/*float: left;*/
 	/*margin-left: 5px;*/
 	margin-bottom: 17.5px;
+	padding: 0 18px;
 }
 .career .pic_u figure{
 	/*margin: 0;*/
-	width: 285px;
+	/*width: 285px;*/
 	height: 197.5px;
 	margin: 0 auto;
 }
@@ -822,8 +823,7 @@ footer .copyright p{
 	margin-top: 32px;
 }
 .career section article{
-	width: 285px;
-	margin: 0 auto;
+	padding: 0 18px;
 }
 .career section article.explain{
 	/*float: left;*/
