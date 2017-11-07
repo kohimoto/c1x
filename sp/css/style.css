@@ -806,7 +806,7 @@ footer .copyright p{
 	/*width: 252.15px;*/
 	/*float: left;*/
 	/*margin-left: 5px;*/
-	margin-bottom: 17.5px;
+	margin-bottom: 18px;
 	padding: 0 18px;
 }
 .career .pic_u figure{
@@ -819,32 +819,34 @@ footer .copyright p{
 	/*margin-left: 0px;*/
 }
 .career section{
-	border-bottom: solid 1px rgb(183,183,183);
-	margin-top: 32px;
+	/*border-bottom: solid 1px rgb(183,183,183);*/
+	border: solid 1px rgb(183,183,183);
+	margin-bottom: 18px;
 }
 .career section article{
-	padding: 0 18px;
 }
 .career section article.explain{
 	/*float: left;*/
 	/*width: 100%;*/
+	padding: 18px;
 }
 .career section article.explain h2{
 	font-size: 16px;
 }
 .career section article.explain .place{
 	color: rgb(109,109,109);
-	margin-bottom: 40px;
+	margin-bottom: 35px;
 	font-size: 16px;
 }
 .career section article.explain .place + p{
-	margin-bottom: 57px;
+	/*margin-bottom: 57px;*/
 }
 .career section article.button{
 	/*float: right;*/
 	/*width: 100%;*/
 	position: relative;
-	margin-bottom: 30px;
+	margin-bottom: 18px;
+	padding: 0 18px;
 }
 .career section article.button button{
 	/*padding: 20px 0;*/
