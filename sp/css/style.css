@@ -480,6 +480,7 @@ header {
   border: 1px solid #ededed;
   margin-left: 5px;
   text-align: center;
+	padding: 10px 2px;
 }
 .cantents-picture .cantents-picture-innner .services li:first-child {
   margin-left: 0;
@@ -493,9 +494,9 @@ header {
 	padding: 0 4px 15px;
 }
 .cantents-picture .cantents-picture-innner .services li span{
-  font-size: 16px;
+  font-size: 8px;
   color: #f7951d;
-	padding: 0 5px 15px;
+	padding: 0 0 10px;
   display: block;
 }
 .cantents-picture .cantents-picture-innner .services li span:after{
@@ -504,13 +505,14 @@ header {
 }
 .cantents-picture .cantents-picture-innner .services li p{
 	padding: 0 5px 15px;
+	font-size: 10px;
 }
 .cantents-picture .cantents-picture-innner .services li .button button{
   width: 90%;
-  padding: 10px 0;
+  padding: 5px 0;
 	color: #fff;
   background-color: #f7951d;
-  font-size: 18px;
+  font-size: 10px;
 }
 .cantents-picture .cantents-picture-innner .services li .button a {
 	display: block;
@@ -1223,7 +1225,7 @@ footer .copyright p{
 	top: -23px;
 }
 .contents-bottom .point {
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 	line-height: 1;
 }
 .contents-bottom .line {
@@ -1238,10 +1240,8 @@ footer .copyright p{
   padding-bottom: 40px;
 }
 .contents-bottom .button-area {
-	overflow: hidden;
 	margin: 0 auto;
-	width: 700px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 .request-area {
 	width: 100%;
@@ -1300,11 +1300,7 @@ footer .copyright p{
 	left: 50px;
 }
 .contents-bottom .button {
-	float: left;
-	padding-left: 40px;
-}
-.contents-bottom .button:first-child {
-	padding-left: 0;
+	padding: 0 0 25px;;
 }
 .services.e-commerce .contents-bottom h3 {
 	padding: 30px 0 50px;
