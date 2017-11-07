@@ -964,7 +964,7 @@ footer .copyright p{
 */
 .services .t-column section .text h5{
 	font-size: 14px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 .services .f-section h3 {
 	padding: 20px 0 60px;
@@ -1225,7 +1225,7 @@ footer .copyright p{
 	top: -23px;
 }
 .contents-bottom .point {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 	line-height: 1;
 }
 .contents-bottom .line {
