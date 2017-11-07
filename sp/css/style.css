@@ -373,7 +373,7 @@ header {
 }
 .cantents-picture .cantents-picture-innner {
   position: relative;
-	height: 380px;
+	height: 520px;
   margin-bottom: 25px;
 }
 .cantents-picture .cantents-picture-innner .customer{
@@ -491,7 +491,7 @@ header {
 }
 .cantents-picture .cantents-picture-innner .services li h4{
   font-size: 8px;
-	padding: 0 4px 15px;
+	padding: 0 4px 10px;
 }
 .cantents-picture .cantents-picture-innner .services li span{
   font-size: 8px;
@@ -504,7 +504,7 @@ header {
   width: 100%;
 }
 .cantents-picture .cantents-picture-innner .services li p{
-	padding: 0 5px 15px;
+	padding: 0 5px 10px;
 	font-size: 10px;
 }
 .cantents-picture .cantents-picture-innner .services li .button button{
@@ -954,7 +954,11 @@ footer .copyright p{
 }
 .services .t-column section .icon{
 	float: left;
-	width: 95px;
+	width: 44px;
+	margin-right: 10px;
+}
+.services .t-column section .icon img{
+	width: 44px;
 }
 /*
 .services .t-column section .text{
@@ -964,7 +968,7 @@ footer .copyright p{
 */
 .services .t-column section .text h5{
 	font-size: 14px;
-	padding-bottom: 10px;
+	padding-bottom: 25px;
 }
 .services .f-section h3 {
 	padding: 20px 0 60px;
@@ -1000,6 +1004,9 @@ footer .copyright p{
 .services .f-section .f-section-inner section .text p,
 .services .t-section .t-section-inner section .text p {
 	text-align: center;
+}
+.services.idsp .t-column section {
+    padding-bottom: 50px;
 }
 .services.idsp .t-column section .text h5{
   color: #1f69b4;
@@ -1151,7 +1158,7 @@ footer .copyright p{
 }
 .over-contents .over-contents-inner .over-position {
 	position: absolute;
-	left: -1000px;
+	left: -200px;
 }
 .over-contents .contents-inner .pointer-position{
 	position: absolute;
@@ -1175,7 +1182,7 @@ footer .copyright p{
 	width: 512px;
 }
 .over-contents.idsp2 .over-contents-inner .over-position {
-	right: -1000px;
+	right: -200px;
 	left: auto;
 }
 .over-contents.idsp2 .contents-inner .pointer-position {
@@ -1200,7 +1207,7 @@ footer .copyright p{
 }
 .over-contents .right-img {
     position: absolute;
-		right:-1000px;
+		right:-200px;
 		top: 100px;
 		left: auto;
 }
@@ -1208,7 +1215,7 @@ footer .copyright p{
     position: absolute;
 		top: 20px;
 		left: auto;
-		right:-1000px;
+		right:-100px;
 }
 .over-contents .over-contents-inner.headertag,
 .over-contents .over-contents-inner.e-commerce {
