@@ -339,12 +339,20 @@ header {
 * Home
 * ======================================================= */
 header {
-  	position: relative;
-  	color: #fff;
+  position: relative;
+  color: #fff;
 	padding-bottom: 16px;
 }
+.head-img {
+	width: 100%;
+	/*
+	position: relative;
+	left: -50%;
+*/
+}
+
 .head-img img {
-	width: 100vw;
+	width: auto;
 	height: 240px;
 }
 .head-img.top {
@@ -472,10 +480,10 @@ header {
 .head-center h2 span{
   font-size: 20px;
   font-weight: 400;
-	line-height: 2;
 }
 .head-center.various h2 span{
   font-size: 12px;
+	display: block;
 }
 .contents-top h3 {
   font-size: 16px;
