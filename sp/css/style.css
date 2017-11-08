@@ -361,6 +361,8 @@ header {
 }
 .head-img.top {
   text-align: center;
+	width: 100%;
+	overflow: hidden;
 }
 .head-img.top img {
   width: auto;
@@ -482,6 +484,7 @@ header {
 .head-center h2 span{
   font-size: 20px;
   font-weight: 400;
+	line-height: 2;
 }
 .head-center.various h2 span{
   font-size: 12px;
@@ -571,7 +574,6 @@ header {
   position: absolute;
 }
 .cantents-picture .cantents-picture-innner .arrow.gray {
-  /*width: 683px;*/
   top: 48px;
   left: 48px;
   right: 0;
