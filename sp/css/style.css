@@ -240,6 +240,7 @@ header {
 	z-index: 10;
 }
 .head-top.openNav .menu-container{
+	display: block;
 	padding: 39px;
 	z-index: 10;
 	text-align: left;
