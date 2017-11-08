@@ -239,6 +239,7 @@ header {
 .head-top.various.openNav .head-top-menu #site-navigation{
 	background: rgba(0,0,0,0.9);
 	z-index: 10;
+	padding-bottom: 0px;
 }
 .head-top.openNav .menu-container{
 	display: block;
@@ -253,11 +254,22 @@ header {
 	width: 100vw;
 	top: 0;
 }
+.head-top-menu #site-navigation.navbar-shrink{
+	background: rgba(255,255,255,0.9);
+	padding-bottom: 5px;
+	z-index: 5;
+}
+.head-top.openNav .head-top-menu #site-navigation.navbar-shrink .nav-mark{
+	color: #fff;
+}
+.head-top-menu #site-navigation.navbar-shrink .nav-mark{
+	color: #000;
+}
 .head-top.openIndex .head-top-menu .nav-mark{
 	background: rgba(0,0,0,0.9);
 }
 .head-top-menu .nav-mark{
-	padding: 20px 28px 0 0;
+	padding: 15px 28px 0 0;
 	text-align: right;
 }
 .head-top-menu .nav-mark:before{
@@ -319,6 +331,7 @@ header {
 }
 .head-top-menu #site-navigation .container .menu-item a{
 	color: #fff;
+	display: block;
 }
 .head-top-menu #site-navigation .container{
 	display: none;
@@ -326,7 +339,7 @@ header {
 .head-top-menu #site-navigation .container.openNav{
 	display: block;
 	position: fixed;
-	top: 50px;
+	top: 45px;
 	left: 0;
 	width: 100vw;
 	background: rgba(0,0,0,0.9);

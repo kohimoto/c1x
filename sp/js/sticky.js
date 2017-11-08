@@ -20,10 +20,10 @@ var cbpAnimatedHeader = (function() {
 	function scrollPage() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
-			$('.wrap-head').addClass("navbar-shrink fadeout");
+			$('#site-navigation').addClass("navbar-shrink");
 		}
 		else {
-			$('.wrap-head').removeClass('navbar-shrink');
+			$('#site-navigation').removeClass('navbar-shrink');
 		}
 		didScroll = false;
 	}
