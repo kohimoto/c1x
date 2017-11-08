@@ -343,8 +343,7 @@ header {
 	padding-bottom: 16px;
 }
 .head-img img {
-  	/*width: auto;*/
-  	width: 100%;
+	width: 100vw;
 	height: 240px;
 }
 .head-img.top {
