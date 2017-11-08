@@ -246,7 +246,7 @@ header {
 	padding: 39px;
 	z-index: 10;
 	text-align: left;
-	height: 100vh;
+	min-height: 100vh;
 }
 .head-top-menu #site-navigation{
 	cursor: pointer;
