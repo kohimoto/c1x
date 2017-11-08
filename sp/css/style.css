@@ -232,7 +232,7 @@ header {
 	font-weight: 400;
 }
 .head-top.openNav{
-	background: rgba(0,0,0,0.9);
+	/*background: rgba(0,0,0,0.9);*/
 	z-index: 10;
 }
 .head-top.various.openNav .head-top-menu #site-navigation{
@@ -251,7 +251,7 @@ header {
 	width: 100%;
 	top: 0;
 }
-.head-top.openNav .head-top-menu .nav-mark{
+.head-top.openIndex .head-top-menu .nav-mark{
 	background: rgba(0,0,0,0.9);
 }
 .head-top-menu .nav-mark{
