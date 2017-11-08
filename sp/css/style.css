@@ -231,7 +231,9 @@ header {
 	color: #000;
 	font-weight: 400;
 }
-.head-top.openNav{
+.head-top.openNav,
+.container.openNav .align-vertical
+{
 	/*background: rgba(0,0,0,0.9);*/
 	z-index: 10;
 }
