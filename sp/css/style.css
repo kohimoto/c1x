@@ -333,6 +333,14 @@ header {
 	color: #fff;
 	display: block;
 }
+.head-top-menu #site-navigation .container .menu-item.social a,
+.head-top-menu #site-navigation .container .menu-item.lang a{
+	display: inline-block;
+}
+.head-top-menu #site-navigation .container .menu-item.social i,
+.head-top-menu #site-navigation .container .menu-item.lang i{
+	padding-right: 15px;
+}
 .head-top-menu #site-navigation .container{
 	display: none;
 }
