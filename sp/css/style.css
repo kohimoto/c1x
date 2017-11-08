@@ -1467,11 +1467,11 @@ input, button, textarea, select {
 }
 .request-area input {
 	border: solid 1px #e4e4e4;
-	margin: 0 20px 5px;
+	margin: 0 0 5px;
 	background: #fff;
 	padding: 16px;
 	box-sizing: border-box;
-	width: 320px;
+	width: 300px;
 }
 .request-area input[name="name"] {
 	height: 50px;
