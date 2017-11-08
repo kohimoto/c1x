@@ -4,6 +4,38 @@ $(function(){
 		$('.request-area').fadeIn();
 	});
 
+  var _touch = ('ontouchstart' in document) ? 'touchstart' : 'click';
+	$('.request').on(_touch,function() {
+		$('.request-area').fadeIn();
+	});
+
+	$('#thankarea').css('display','none');
+	$('#request-form').submit(function(){
+	var checkName = $('input[name=name]').val();
+	var checkEmail = $('input[name=email]').val();
+		if(!checkName){
+			alert('please write name!');
+			return false;
+		}
+		if(!checkEmail){
+			alert('please write email!');
+			return false;
+		}
+		var data ={name:checkName,email:checkEmail}
+		$.ajax({
+
+			type: "POST",
+			url : "/mail1.php",
+			data: data,
+			success: function(data_r){
+			$('#inputarea').css('display','none');
+			$('#thankarea').css('display','block');
+
+			}
+		});
+		return false;
+
+	});
 /*
 var _touch = ('ontouchstart' in document) ? 'touchstart' : 'click';
 $('.request').on(_touch,function() {
