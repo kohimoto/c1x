@@ -1430,6 +1430,10 @@ ul.slick-dots li.slick-active {
 	margin: 0 auto;
   padding: 0 18px 50px;
 }
+
+input[type="button"],input[type="submit"] {
+  -webkit-appearance: none;
+}
 .request-area {
 	width: 100%;
 	background-color: #f1f1f1;
