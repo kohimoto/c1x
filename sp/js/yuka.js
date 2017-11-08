@@ -1,5 +1,5 @@
 $(function(){
-
+/*
   $('.request').click(function(){
 		$('.request-area').fadeIn();
 	});
@@ -36,6 +36,7 @@ $(function(){
 		return false;
 
 	});
+  */
 /*
 var _touch = ('ontouchstart' in document) ? 'touchstart' : 'click';
 $('.request').on(_touch,function() {

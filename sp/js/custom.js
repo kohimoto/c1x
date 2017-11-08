@@ -6,7 +6,6 @@ $(function(){
 		$('#site-navigation .container').toggleClass('openNav');
 		$('.various').toggleClass('openNav');
 	});
-
 	$('.menu-item.services').click(function(){
 		$('.menu-item.opener').slideToggle();
 		$(this).toggleClass('child-open');
@@ -16,7 +15,6 @@ $(function(){
 	/**
 		location lighting
 					**/
-
 	var handleHoverIn = function(){
 		var alt;
 		var light_name;
@@ -27,7 +25,6 @@ $(function(){
 		$(light_name).addClass('lighting');
 		}
 	}
-
 	var handleHoverOut = function(){
 		var alt;
 		var light_name;
@@ -38,7 +35,6 @@ $(function(){
 		$(light_name).addClass('disp_none');
 		}
 	}
-
 	$('.location figure').hover(handleHoverIn, handleHoverOut);
 
 	/**
@@ -51,13 +47,8 @@ $(function(){
 	/**
 		Rrequese demo area
 					**/
-/*
+
 	$('.request').click(function(){
-		$('.request-area').fadeIn();
-	});
-*/
-	var _touch = ('ontouchstart' in document) ? 'touchstart' : 'click';
-	$('.request').on(_touch,function() {
 		$('.request-area').fadeIn();
 	});
 
@@ -75,21 +66,16 @@ $(function(){
 		}
 		var data ={name:checkName,email:checkEmail}
 		$.ajax({
-
 			type: "POST",
 			url : "/mail1.php",
 			data: data,
 			success: function(data_r){
 			$('#inputarea').css('display','none');
 			$('#thankarea').css('display','block');
-
 			}
 		});
 		return false;
-
 	});
-
-
 
 
 	/**
@@ -128,16 +114,15 @@ $(function(){
 		if(flg1 == false){
 		mySVG.drawsvg('animate');
 		flg1 = true;
-
 		}
 		}
-
-
 	});
 
 	}
 
 	//page idsp
+
+/*
 
 	if($('.line_idsp1').length){
 	var target_idsp1 = $('.line_idsp1').offset().top+200;
@@ -285,7 +270,11 @@ $(function(){
 	});
 	}
 
+*/
 	//page direct
+
+/*
+
 	if($('.line_direct1').length){
 	var target_direct1 = $('.line_direct1').offset().top+200;
 	var target_direct3 = $('.line_direct3').offset().top+300;
@@ -391,8 +380,9 @@ $(function(){
 	});
 
 	}
-
+*/
 	//page header
+/*
 	if($('.line_header1').length){
 	var target_header1 = $('.line_header1').offset().top+200;
 	var target_header3 = $('.line_header3').offset().top+300;
@@ -460,9 +450,9 @@ $(function(){
 	});
 
 	}
-
+*/
 	//page EC
-
+/*
 	if($('.line_ec1').length){
 	var target_ec1 = $('.line_ec1').offset().top+200;
 	var target_ec3 = $('.line_ec3').offset().top+300;
@@ -545,9 +535,9 @@ $(function(){
 	});
 
 	}
-
+*/
 	//page mobile
-
+/*
 	if($('.line_mobile1').length){
 	var target_mobile1 = $('.line_mobile1').offset().top+200;
 	var target_mobile3 = $('.line_mobile3').offset().top+300;
@@ -629,4 +619,6 @@ $(function(){
 	});
 
 	}
+
+	*/
 });
