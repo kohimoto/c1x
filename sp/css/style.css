@@ -55,7 +55,6 @@ body {
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	overflow: hidden;
 	width: 100%;
 	padding-top: 42px;
 }
@@ -251,7 +250,7 @@ header {
 .head-top-menu #site-navigation{
 	cursor: pointer;
 	position: fixed;
-	width: 100%;
+	width: 100vw;
 	top: 0;
 }
 .head-top.openIndex .head-top-menu .nav-mark{
