@@ -33,8 +33,8 @@
 <script type="text/javascript" src="/js/ofi.min.js"></script>
 <!--script type="text/javascript" src="/js/sticky.js"></script-->
 <!--script type="text/javascript" src="/js/jquery.drawsvg.js"></script-->
-<!--script type="text/javascript" src="/js/custom.js"></script-->
-<script type="text/javascript" src="/sp/js/yuka.js"></script>
+<script type="text/javascript" src="/sp/js/custom.js"></script>
+<script type="text/javascript" src="/js/yuka.js"></script>
 <script type="text/javascript" src="/sp/js/slick.js"></script>
 
 <script src="/js/jquery.waypoints.min.js"></script>
@@ -208,63 +208,26 @@ if(isset($lang_flg)){
 }
 
 ?>
-	<div class="iconarea">
-	<!--div class="cs-top-modal cs-lang-top-modal">
-	<a href="#" class="cs-open-modal"><i class="cs-in fa fa-globe"></i>English<i class="cs-down fa fa-angle-down"></i></a>
-	<div class="cs-modal-content">
-	<ul>
-	<li><a href="/jp">Japanese</a></li>
-	<li><a href="/">English</a></li>
-	</ul>
-	</div>
-	</div-->
-
-	<div class="sns">
-	<ol class="social">
-		<li class="open-modal"><a href="#" class="cs-open-modal"><i class="cs-in fa"></i><?=$language?><i class="cs-down fa fa-angle-down"></i>
-		<ul class="cs-modal-content">
-		<li class="lang <?=$disp_jp?>"><a href="#">Japanese</a></li>
-		<li class="lang <?=$disp_en?>"><a href="/">English</a></li>
-		</ul>
-
-		</li></a>
-		<li class="social-fa"><a target="_self" href="#"><i class="fa fa-facebook"></i></a></li>
-		<li class="social-in"><a target="_self" href="#"><i class="fa fa-twitter"></i></a></li>
-		<li class="social-in"><a target="_self" href="#"><i class="fa fa-linkedin"></i></a></li>
-	</ol>
-	</div>
-	</div>
 	<div class="wrap-head">
 	<div class="head-top <?=$head_class?>">
-		<div class="head-top-left">
-  		<h1><a href="/"><img src="/images/common/c1x_logo.png" alt="logo"></a></h1>
-		</div>
-		<div class="head-top-right">
+		<div class="head-top-menu">
 			<nav id="site-navigation" role="navigation" class="main-navigation navbar navbar-default navbar-fixed-top">
+			<div class="nav-mark"></div>
 				<div class="container">
 					<div class="align-vertical">
-						<!--div class="navbar-header page-scroll">
-							<button type="button" class="menu-toggle navbar-toggle" aria-controls="menu" aria-expanded="false">
-								<span class="sr-only">Toggle Navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div-->
 						<div class="menu-container" id="">
 							<ul class="nav navbar-nav navbar-right">
 								<li class='menu-item'><a href="/">Home</a></li>
-                <li class='menu-item services <?=$selected_service?>'>
-                  <a href="">Services</a>
-                  <ul>
-                    <li><a href="/services/idsp.html">iDSP<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                    <li><a href="/services/issp.html">iSSP<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                    <li><a href="/services/direct.html">&nbsp;&nbsp;Programmatic Direct<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                    <li><a href="/services/headertag.html">&nbsp;&nbsp;Header Tag<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                    <li><a href="/services/mobile.html">&nbsp;&nbsp;Mobile<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                    <li><a href="/services/e-commerce.html">&nbsp;&nbsp;Native EC<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                  </ul>
-                </li>
+                						<li class='menu-item services <?=$selected_service?>'>
+                						  <span class="parent">Services</span></li>
+
+                						    <li class="menu-item child opener"><a href="/services/idsp.html">iDSP</a></li>
+                						    <li class="menu-item child child-parent opener"><a href="/services/issp.html">iSSP</a></li>
+                						    <li class="menu-item grandson opener"><a href="/services/direct.html">&nbsp;&nbsp;Programmatic Direct</a></li>
+                						    <li class="menu-item grandson opener"><a href="/services/headertag.html">&nbsp;&nbsp;Header Tag</a></li>
+                						    <li class="menu-item grandson opener"><a href="/services/mobile.html">&nbsp;&nbsp;Mobile</a></li>
+                						    <li class="menu-item grandson opener"><a href="/services/e-commerce.html">&nbsp;&nbsp;Native EC</a></li>
+
 								<li class='menu-item <?=$selected_about?>'><a href="/about">About</a></li>
 								<li class='menu-item <?=$selected_career?>'><a href="/career">Career</a></li>
 								<li class='menu-item <?=$selected_contact?>'><a href="/contact">Contact</a></li>
