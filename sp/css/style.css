@@ -202,11 +202,17 @@ button{
 .button button:hover {
 	opacity: 0.8;
 }
+.button button{
+	 background-color: #f7951d;
+}
 .button.blue button{
 	 background-color: #1f69b4;
 }
-.button.orange button{
-	 background-color: #f7951d;
+.button.skyblue button{
+	 background-color: #00aeef;
+}
+.button.green button{
+	 background-color: #8dc63f;
 }
 header {
   width: 100%
@@ -935,9 +941,6 @@ footer .copyright p{
   text-align: center;
   padding: 20px 0;
 }
-.services.e-commerce .contents-middle h3 {
-  padding: 20px 0 25px;
-}
 .services .contents-middle p {
   line-height: 1.8;
 	padding-bottom:
@@ -945,8 +948,18 @@ footer .copyright p{
 .services .contents-middle .t-column {
 	height: auto;
 }
+.services .contents-middle .button-area {
+	margin: 0 auto;
+  padding: 0 18px 50px;
+}
+.services .contents-middle .button-area button{
+	margin: 0 0 10px;
+}
 .services .contents-middle .imac {
 	padding-bottom: 25px;
+}
+.services.e-commerce .contents-middle h3 {
+  padding: 20px 0 25px;
 }
 .services.headertag .contents-middle h5,
 .services.e-commerce .contents-middle h5  {
