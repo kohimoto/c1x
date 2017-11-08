@@ -231,11 +231,15 @@ header {
 	color: #000;
 	font-weight: 400;
 }
+.head-top.openNav{
+	background: rgba(0,0,0,0.9);
+	z-index: 10;
+}
 .head-top.various.openNav .head-top-menu #site-navigation{
 	background: rgba(0,0,0,0.9);
 	z-index: 10;
 }
-.head-top.various.openNav .menu-container{
+.head-top.openNav .menu-container{
 	padding: 39px;
 	z-index: 10;
 	text-align: left;
@@ -247,8 +251,12 @@ header {
 	width: 100%;
 	top: 0;
 }
+.head-top.openNav .head-top-menu .nav-mark{
+	background: rgba(0,0,0,0.9);
+}
 .head-top-menu .nav-mark{
 	padding: 20px 28px 0 0;
+	text-align: right;
 }
 .head-top-menu .nav-mark:before{
 	content: "\f0c9";
