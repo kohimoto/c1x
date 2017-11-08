@@ -245,6 +245,10 @@ header {
   width: auto;
 	height: 240px;
 }
+.head-img.top img {
+  width: auto;
+	height: 100vh;
+}
 .head-top .head-top-left{
   float: left;
 }
@@ -345,18 +349,18 @@ header {
   -o-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   text-align: center;
-  width: 1024px;
+  width: 320px;
 	z-index: 0;
 }
 .head-center.various{
   top: 65%;
 }
 .head-center h2{
-  font-size: 22px;
+  font-size: 33px;
   font-weight: 700;
 }
 .head-center h2 span{
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 400;
 }
 .head-center.various h2 span{
@@ -375,7 +379,7 @@ header {
 	font-size: 12px;
 }
 .home .contents-top {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 .cantents-picture .cantents-picture-innner {
   position: relative;
