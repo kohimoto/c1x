@@ -358,10 +358,7 @@ header {
 }
 .head-img {
 	width: 100%;
-	/*
-	position: relative;
-	left: -50%;
-*/
+  overflow: hidden;
 }
 
 .head-img img {
