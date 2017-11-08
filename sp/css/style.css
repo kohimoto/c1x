@@ -331,6 +331,7 @@ header {
 }
 .head-top-menu #site-navigation .container .menu-item a{
 	color: #fff;
+	display: block;
 }
 .head-top-menu #site-navigation .container{
 	display: none;
