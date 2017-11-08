@@ -32,6 +32,7 @@
 <script type="text/javascript" src="/js/ofi.min.js"></script>
 <script type="text/javascript" src="/js/sticky.js"></script>
 <script type="text/javascript" src="/js/yuka.js"></script>
+<script type="text/javascript" src="/sp/js/nav.js"></script>
 
 <script src="/js/jquery.waypoints.min.js"></script>
 <script src="/js/jquery.countTo.js"></script>
@@ -62,27 +63,27 @@ $(function(){
 		<div class="head-top-left head-home">
   		<h1><a href="/"><img src="/images/common/c1x_logo_white.png" alt="logo"></a></h1>
 		</div>
-		<div class="head-top-right">
+		<div class="head-top-menu">
 			<nav id="site-navigation" role="navigation" class="main-navigation navbar navbar-default navbar-fixed-top">
+			<div class="nav-mark"></div>
 				<div class="container">
 					<div class="align-vertical">
 						<div class="menu-container" id="">
 							<ul class="nav navbar-nav navbar-right">
 								<li class='menu-item'><a href="/">Home</a></li>
-								<li class='menu-item services'>
-                  <a href="">Services</a>
-                  <ul>
-                    <li><a href="/services/idsp.html">iDSP<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                    <li><a href="/services/issp.html">iSSP<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                    <li><a href="/services/direct.html">&nbsp;&nbsp;Programmatic Direct<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                    <li><a href="/services/headertag.html">&nbsp;&nbsp;Header Tag<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                    <li><a href="/services/mobile.html">&nbsp;&nbsp;Mobile<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                    <li><a href="/services/e-commerce.html">&nbsp;&nbsp;Native EC<i class="fa fa-chevron-right fa-1x"></i></a></li>
-                  </ul>
-                </li>
-								<li class='menu-item'><a href="/about">About</a></li>
-								<li class='menu-item'><a href="/career">Career</a></li>
-								<li class='menu-item'><a href="/contact">Contact</a></li>
+                						<li class='menu-item services <?=$selected_service?>'>
+                						  <span class="parent">Services</span></li>
+
+                						    <li class="menu-item child opener"><a href="/services/idsp.html">iDSP</a></li>
+                						    <li class="menu-item child child-parent opener"><a href="/services/issp.html">iSSP</a></li>
+                						    <li class="menu-item grandson opener"><a href="/services/direct.html">&nbsp;&nbsp;Programmatic Direct</a></li>
+                						    <li class="menu-item grandson opener"><a href="/services/headertag.html">&nbsp;&nbsp;Header Tag</a></li>
+                						    <li class="menu-item grandson opener"><a href="/services/mobile.html">&nbsp;&nbsp;Mobile</a></li>
+                						    <li class="menu-item grandson opener"><a href="/services/e-commerce.html">&nbsp;&nbsp;Native EC</a></li>
+               
+								<li class='menu-item <?=$selected_about?>'><a href="/about">About</a></li>
+								<li class='menu-item <?=$selected_career?>'><a href="/career">Career</a></li>
+								<li class='menu-item <?=$selected_contact?>'><a href="/contact">Contact</a></li>
 							</ul>
 						</div>
 					</div>
