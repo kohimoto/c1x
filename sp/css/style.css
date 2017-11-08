@@ -244,6 +244,7 @@ header {
 	cursor: pointer;
 	position: fixed;
 	width: 100%;
+	top: 0;
 }
 .head-top-menu .nav-mark{
 	padding: 20px 28px 0 0;
