@@ -1473,6 +1473,7 @@ input, button, textarea, select {
 	box-sizing: border-box;
 	width: 300px;
 	font-size:12px;
+	line-height: 1;
 }
 .request-area input[name="name"] {
 	height: 50px;
