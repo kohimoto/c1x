@@ -1472,6 +1472,7 @@ input, button, textarea, select {
 	padding: 16px;
 	box-sizing: border-box;
 	width: 300px;
+	font-size:12px;
 }
 .request-area input[name="name"] {
 	height: 50px;
