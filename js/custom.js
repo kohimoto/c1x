@@ -53,9 +53,12 @@ $(function(){
 			return false;
 		}
 		if(!checkEmail){
-			alert('please write email!');
+      			caution_email = '<div class="caution caution2"><p>Please input email!</p></div>';
+			$('#inputarea').append(caution_email);
+			//alert('please write email!');
 			return false;
 		}
+		$('.caution').remove();
 		var data ={name:checkName,email:checkEmail} 
 		$.ajax({
 
