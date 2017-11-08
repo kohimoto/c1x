@@ -559,7 +559,7 @@ header {
   position: absolute;
 }
 .cantents-picture .cantents-picture-innner .arrow.gray {
-  width: 683px;
+  /*width: 683px;*/
   top: 48px;
   left: 48px;
   right: 0;

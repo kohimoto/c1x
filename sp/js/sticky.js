@@ -21,11 +21,9 @@ var cbpAnimatedHeader = (function() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
 			$('.wrap-head').addClass("navbar-shrink fadeout");
-			$('.navbar-shrink h1 img').attr('src','/images/common/c1x_logo.png');
 		}
 		else {
 			$('.wrap-head').removeClass('navbar-shrink');
-			$('.head-top .head-home h1 img').attr('src','/images/common/c1x_logo_white.png');
 		}
 		didScroll = false;
 	}
