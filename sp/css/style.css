@@ -239,6 +239,7 @@ header {
 	padding: 39px;
 	z-index: 10;
 	text-align: left;
+	height: 100vh;
 }
 .head-top-menu #site-navigation{
 	cursor: pointer;
@@ -320,8 +321,8 @@ header {
 	width: 100%;
 	background: rgba(0,0,0,0.9);
 	z-index: 10;
-	
-	
+
+
 }
 
 /* =======================================================
