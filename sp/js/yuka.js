@@ -1,5 +1,17 @@
-/*
 $(function(){
+
+  $('.request').click(function(){
+		$('.request-area').fadeIn();
+	});
+
+/*
+var _touch = ('ontouchstart' in document) ? 'touchstart' : 'click';
+$('.request').on(_touch,function() {
+  $('.request-area').fadeIn();
+});
+]*/
+
+/*
 	$(window).scroll(function () {
 		if($(window).scrollTop() > 2400) {
 			$('#move_idsp1').animate({'left':'-200px'});
@@ -14,5 +26,5 @@ $(function(){
 			$('#move_e-commerce').animate({'right':'-100px'});
 		}
 	});
-});
 */
+});

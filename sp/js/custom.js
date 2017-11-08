@@ -13,7 +13,7 @@ $(function(){
 		$(light_name).addClass('lighting');
 		}
 	}
-	
+
 	var handleHoverOut = function(){
 		var alt;
 		var light_name;
@@ -37,9 +37,15 @@ $(function(){
 	/**
 		Rrequese demo area
 					**/
+/*
 	$('.request').click(function(){
 		$('.request-area').fadeIn();
-	});	
+	});
+*/
+	var _touch = ('ontouchstart' in document) ? 'touchstart' : 'click';
+	$('.request').on(_touch,function() {
+		$('.request-area').fadeIn();
+	});
 
 	$('#thankarea').css('display','none');
 	$('#request-form').submit(function(){
@@ -53,7 +59,7 @@ $(function(){
 			alert('please write email!');
 			return false;
 		}
-		var data ={name:checkName,email:checkEmail} 
+		var data ={name:checkName,email:checkEmail}
 		$.ajax({
 
 			type: "POST",
@@ -62,7 +68,7 @@ $(function(){
 			success: function(data_r){
 			$('#inputarea').css('display','none');
 			$('#thankarea').css('display','block');
-			
+
 			}
 		});
 		return false;
@@ -73,9 +79,9 @@ $(function(){
 
 
 	/**
-		move line	
+		move line
 				**/
-	//page issp 
+	//page issp
 
 	if($('.line_issp1').length){
 	var target_issp = $('.line_issp1').offset().top+200;
@@ -98,7 +104,7 @@ $(function(){
 		}
 	});
 		var mySVG2 = $('.line_issp2').drawsvg();
-	
+
 	$(window).on('scroll',function(){
 
 		scrollTop = $(window).scrollTop();
@@ -117,7 +123,7 @@ $(function(){
 
 	}
 
-	//page idsp 
+	//page idsp
 
 	if($('.line_idsp1').length){
 	var target_idsp1 = $('.line_idsp1').offset().top+200;
@@ -165,7 +171,7 @@ $(function(){
 		}else if(flg5 == false){
 		mySVG5.drawsvg('animate');
 		flg5 = true;
-		
+
 		}
 		}
 	});
@@ -205,7 +211,7 @@ $(function(){
 		easing: 'swing',
 		reverse: false
 	});
-	
+
 	$(window).on('scroll',function(){
 
 		scrollTop = $(window).scrollTop();
@@ -220,7 +226,7 @@ $(function(){
 		}
 		if(startPoint > target_idsp3){
 		if(flg3 == false){
-		flg4 = false; 
+		flg4 = false;
 		mySVG3.drawsvg('animate');
 		flg3 = true;
 
@@ -228,7 +234,7 @@ $(function(){
 		}
 		if(startPoint > target_idsp6){
 		if(flg6 == false){
-		flg6 = false; 
+		flg6 = false;
 		mySVG6.drawsvg('animate');
 		flg6 = true;
 
@@ -236,7 +242,7 @@ $(function(){
 		}
 		if(startPoint > target_idsp7){
 		if(flg7 == false){
-		flg7 = false; 
+		flg7 = false;
 		mySVG7.drawsvg('animate');
 		flg7 = true;
 
@@ -244,7 +250,7 @@ $(function(){
 		}
 		if(startPoint > point_idsp1){
 		if(p_flg1 == false){
-		p_flg1 = false; 
+		p_flg1 = false;
 		mySVG_p1.drawsvg('animate');
 		p_flg1 = true;
 
@@ -252,7 +258,7 @@ $(function(){
 		}
 		if(startPoint > point_idsp2){
 		if(p_flg2 == false){
-		p_flg2 = false; 
+		p_flg2 = false;
 		mySVG_p2.drawsvg('animate');
 		p_flg2 = true;
 
@@ -265,7 +271,7 @@ $(function(){
 	});
 	}
 
-	//page direct 
+	//page direct
 	if($('.line_direct1').length){
 	var target_direct1 = $('.line_direct1').offset().top+200;
 	var target_direct3 = $('.line_direct3').offset().top+300;
@@ -336,7 +342,7 @@ $(function(){
 		easing: 'swing',
 		reverse: false,
 	});
-	
+
 	$(window).on('scroll',function(){
 
 		scrollTop = $(window).scrollTop();
@@ -372,7 +378,7 @@ $(function(){
 
 	}
 
-	//page header 
+	//page header
 	if($('.line_header1').length){
 	var target_header1 = $('.line_header1').offset().top+200;
 	var target_header3 = $('.line_header3').offset().top+300;
@@ -413,7 +419,7 @@ $(function(){
 		easing: 'swing',
 		reverse: false,
 	});
-	
+
 	$(window).on('scroll',function(){
 
 		scrollTop = $(window).scrollTop();
@@ -441,7 +447,7 @@ $(function(){
 
 	}
 
-	//page EC 
+	//page EC
 
 	if($('.line_ec1').length){
 	var target_ec1 = $('.line_ec1').offset().top+200;
@@ -491,7 +497,7 @@ $(function(){
 		easing: 'swing',
 		reverse: false,
 	});
-	
+
 	$(window).on('scroll',function(){
 
 		scrollTop = $(window).scrollTop();
@@ -575,7 +581,7 @@ $(function(){
 		easing: 'swing',
 		reverse: false,
 	});
-	
+
 	$(window).on('scroll',function(){
 
 		scrollTop = $(window).scrollTop();
