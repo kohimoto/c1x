@@ -357,7 +357,7 @@ header {
 }
 .head-top-menu #site-navigation .container.openNav{
 	display: block;
-	position: fixed;
+	/*position: fixed;*/
 	top: 45px;
 	left: 0;
 	width: 100vw;
