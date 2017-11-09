@@ -127,7 +127,7 @@ $(function(){
 	var target_idsp1 = $('.line_idsp1').offset().top+200;
 	var target_idsp2 = $('.line_idsp2').offset().top+200;
 	var target_idsp3 = $('.line_idsp3').offset().top+270;
-	var target_idsp4 = $('.line_idsp4').offset().top-100;
+	var target_idsp4 = $('.line_idsp4').offset().top-200;
 	var windowHeight = $(window).height();
 	var flg1 = false;
 	var flg2 = false;
