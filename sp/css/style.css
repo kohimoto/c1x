@@ -249,11 +249,22 @@ header {
 	height: 100vh;
 }
 .head-top-menu #site-navigation{
+  cursor: pointer;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*
+.head-top-menu #site-navigation{
 	cursor: pointer;
 	position: fixed;
 	width: 100vw;
 	top: 0;
-}
+}*/
 .head-top-menu #site-navigation.navbar-shrink{
 	background: rgba(255,255,255,0.9);
 	padding-bottom: 12px;
@@ -382,7 +393,6 @@ header {
   width: auto;
 	height: 100vh;
 }
-
 @media screen and (orientation: landscape) {
   .head-img img {
   	width: 100vw;
