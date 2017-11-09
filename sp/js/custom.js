@@ -356,7 +356,7 @@ $(function(){
 	var target_ecommerce1 = $('.line_ecommerce1').offset().top+200;
 	var target_ecommerce2 = $('.line_ecommerce2').offset().top+200;
 	var target_ecommerce3 = $('.line_ecommerce3').offset().top+270;
-	var target_ecommerce4 = $('.line_ecommerce4').offset().top;
+	var target_ecommerce4 = $('.line_ecommerce4').offset().top-550;
 	var windowHeight = $(window).height();
 	var flg1 = false;
 	var flg2 = false;
