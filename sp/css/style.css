@@ -1442,7 +1442,7 @@ ul.slick-dots li.slick-active {
 
 .contents-bottom .point {
   margin-bottom: 25px;
-	line-height: 1;
+	line-height: 0.6;
 }
 .contents-bottom .line {
   text-align: center;
