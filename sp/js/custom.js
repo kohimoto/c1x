@@ -352,6 +352,75 @@ $(function(){
 	});
 	}
 	//page EC
+	if($('.line_ecommerce1').length){
+	var target_ecommerce1 = $('.line_ecommerce1').offset().top+200;
+	var target_ecommerce2 = $('.line_ecommerce2').offset().top+200;
+	var target_ecommerce3 = $('.line_ecommerce3').offset().top+270;
+	var target_ecommerce4 = $('.line_ecommerce4').offset().top;
+	var windowHeight = $(window).height();
+	var flg1 = false;
+	var flg2 = false;
+	var flg3 = true;
+	var flg4 = false;
+	var scrollTop = 0;
+	var startPoint = 0;
+
+
+	var mySVG = $('.line_ecommerce1').drawsvg({
+		duration: 1000,
+		stagger: 400,
+		easing: 'swing',
+		reverse: false
+	});
+	var mySVG2 = $('.line_ecommerce2').drawsvg();
+	var mySVG3 = $('.line_ecommerce3').drawsvg({
+		duration: 1000,
+		stagger: 1000,
+		easing: 'swing',
+		reverse: false,
+		callback: function(){
+		if(flg2 == false){
+		mySVG2.drawsvg('animate');
+
+		flg2 = true;
+		flg3 = false;
+		}else if(flg3 == false){
+		mySVG3.drawsvg('animate');
+		flg3 = true;
+		}
+		}
+	});
+	var mySVG4 = $('.line_ecommerce4').drawsvg({
+		duration: 1000,
+		stagger: 1000,
+		easing: 'swing',
+		reverse: false
+	});
+
+	$(window).on('scroll',function(){
+
+		scrollTop = $(window).scrollTop();
+		windowHeight = $(window).height();
+		startPoint = scrollTop + windowHeight - 100;
+		if(startPoint > target_ecommerce1){
+		if(flg1 == false){
+		mySVG.drawsvg('animate');
+		flg1 = true;
+
+		}
+		}
+		if(startPoint > target_ecommerce4){
+		if(flg4 == false){
+		mySVG4.drawsvg('animate');
+		flg4 = true;
+
+		}
+		}
+
+
+
+	});
+	}
 	//page mobile
 	if($('.line_mobile1').length){
 	var target_mobile1 = $('.line_mobile1').offset().top+200;
