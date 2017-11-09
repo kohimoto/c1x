@@ -82,42 +82,58 @@ $(function(){
 		move line
 				**/
 	//page issp
-
 	if($('.line_issp1').length){
-	var target_issp = $('.line_issp1').offset().top+200;
+	var target_idsp1 = $('.line_issp1').offset().top+200;
+	var target_idsp2 = $('.line_issp2').offset().top+200;
+	var target_idsp3 = $('.line_issp3').offset().top+270;
 	var windowHeight = $(window).height();
 	var flg1 = false;
+	var flg2 = false;
+	var flg3 = true;
 	var scrollTop = 0;
 	var startPoint = 0;
 
-	var flg2 = false;
+
 	var mySVG = $('.line_issp1').drawsvg({
 		duration: 1000,
 		stagger: 400,
+		easing: 'swing',
+		reverse: false
+	});
+	var mySVG2 = $('.line_issp2').drawsvg();
+	var mySVG3 = $('.line_issp3').drawsvg({
+		duration: 1000,
+		stagger: 1000,
 		easing: 'swing',
 		reverse: false,
 		callback: function(){
 		if(flg2 == false){
 		mySVG2.drawsvg('animate');
+
 		flg2 = true;
+		flg3 = false;
+		}else if(flg3 == false){
+		mySVG3.drawsvg('animate');
+		flg3 = true;
 		}
 		}
 	});
-		var mySVG2 = $('.line_issp2').drawsvg();
-
 	$(window).on('scroll',function(){
 
 		scrollTop = $(window).scrollTop();
 		windowHeight = $(window).height();
 		startPoint = scrollTop + windowHeight - 100;
-		if(startPoint > target_issp){
+		if(startPoint > target_idsp1){
 		if(flg1 == false){
 		mySVG.drawsvg('animate');
 		flg1 = true;
-		}
-		}
-	});
 
+		}
+		}
+
+
+
+	});
 	}
 
 	//page idsp
