@@ -237,6 +237,9 @@ header {
 }
 .head-top.openNav .head-top-menu #site-navigation{
 	background: rgba(0,0,0,0.9);
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 .head-top.various.openNav .head-top-menu #site-navigation{
 	z-index: 10;
@@ -254,9 +257,6 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  height: 100%;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 /*
