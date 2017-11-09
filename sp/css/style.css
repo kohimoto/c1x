@@ -368,11 +368,11 @@ header {
 	width: 100%;
   overflow: hidden;
 }
-
 .head-img img {
 	width: auto;
 	height: 240px;
 }
+
 .head-img.top {
   text-align: center;
 	width: 100%;
@@ -382,6 +382,18 @@ header {
   width: auto;
 	height: 100vh;
 }
+
+@media screen and (orientation: landscape) {
+  .head-img img {
+  	width: 100vw;
+  	height: auto;
+  }
+  .head-img.top img {
+  	width: 100vw;
+  	height: auto;
+  }
+}
+
 .head-top .head-top-left{
   text-align: center;
 }
