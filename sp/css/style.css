@@ -233,7 +233,6 @@ header {
 .head-top.openNav,
 .container.openNav .align-vertical
 {
-	/*background: rgba(0,0,0,0.9);*/
 	z-index: 10;
 }
 .head-top.various.openNav .head-top-menu #site-navigation{
@@ -361,10 +360,9 @@ header {
 	top: 45px;
 	left: 0;
 	width: 100vw;
-	background: rgba(0,0,0,0.9);
+	/*background: rgba(0,0,0,0.9);*/
 	z-index: 10;
-
-
+  height: 100%;
 }
 
 /* =======================================================
