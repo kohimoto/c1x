@@ -256,7 +256,7 @@ header {
 }
 .head-top-menu #site-navigation.navbar-shrink{
 	background: rgba(255,255,255,0.9);
-	padding-bottom: 5px;
+	padding-bottom: 12px;
 	z-index: 5;
 }
 .head-top.openNav .head-top-menu #site-navigation.navbar-shrink .nav-mark{
@@ -534,9 +534,9 @@ header {
 }
 .cantents-picture .cantents-picture-innner .customer ul li {
   float: left;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1;
-  padding: 16px 12.7px;
+  padding: 17px 15.8px;
   background-color: #a1a1a1;
   color: #fff;
   border-radius: 10px;
@@ -547,9 +547,9 @@ header {
 }
 .cantents-picture .cantents-picture-innner .spuare {
   position: absolute;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1;
-  padding: 14.5px;
+  padding: 16px;
   color: #fff;
   width: 137.6576px;
   height: 45px;
@@ -1442,7 +1442,7 @@ ul.slick-dots li.slick-active {
 
 .contents-bottom .point {
   margin-bottom: 25px;
-	line-height: 1;
+	line-height: 0.6;
 }
 .contents-bottom .line {
   text-align: center;
