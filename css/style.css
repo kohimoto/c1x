@@ -238,6 +238,7 @@ header {
 .head-img img {
   width: 100%;
   min-width: 1024px;
+	display: block; 
 }
 .head-top .head-top-left{
   float: left;
