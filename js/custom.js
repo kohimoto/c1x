@@ -3,7 +3,6 @@ $(function(){
 		SP menu toggle
 					**/
 	$('.nav-mark').click(function(){
-alert('aa');
 		$('#site-navigation .container').toggleClass('openNav');
 		$('.various').toggleClass('openNav');
 	});
@@ -13,7 +12,6 @@ alert('aa');
 		$(this).toggleClass('child-open');
 	});
 
-});
 	/**
 		location lighting
 					**/

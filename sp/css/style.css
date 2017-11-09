@@ -315,7 +315,7 @@ header {
 	right: 40px;
 	font-size: 1.5em;
 }
-.head-top-menu #site-navigation .container .menu-item.child-parent:before{
+.head-top-menu #site-navigation .container .child-parent:before{
 	content: "\f107";
 	font-family: FontAwesome;
 	position: absolute;
