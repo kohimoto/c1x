@@ -610,7 +610,7 @@ footer .copyright p{
 .location{
 	text-align: center;
 	position: relative;
-	top: -150px;
+	top: -220px;
 }
 .location > div{
 	width: 1024px;
@@ -1321,7 +1321,7 @@ footer .copyright p{
 	padding: 20px;
 	position: relative;
 	display: inline-block;
-	
+
 }
 .request-area .caution:before{
 	content: "";
