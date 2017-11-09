@@ -256,7 +256,7 @@ header {
 }
 .head-top-menu #site-navigation.navbar-shrink{
 	background: rgba(255,255,255,0.9);
-	padding-bottom: 5px;
+	padding-bottom: 12px;
 	z-index: 5;
 }
 .head-top.openNav .head-top-menu #site-navigation.navbar-shrink .nav-mark{
