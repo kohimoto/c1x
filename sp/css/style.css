@@ -1506,11 +1506,9 @@ input, button, textarea, select {
 }
 .request-area input[name="name"] {
 	height: 50px;
-	line-height: 50px;
 }
 .request-area input[name="email"] {
 	height: 50px;
-	line-height: 50px;
 }
 .request-area input[name="submit"] {
 	width: 150px;
