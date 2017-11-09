@@ -352,104 +352,20 @@ $(function(){
 	});
 	}
 	//page EC
-/*
-	if($('.line_ec1').length){
-	var target_ec1 = $('.line_ec1').offset().top+200;
-	var target_ec3 = $('.line_ec3').offset().top+300;
-	//var target_ec4 = $('.line_ec4').offset().top+300;
-	var target_ec5 = $('.line_ec5').offset().top+300;
-	var windowHeight = $(window).height();
-	var flg1 = false;
-	var flg2 = false;
-	var flg3 = false;
-	var flg4 = true;
-	var flg5 = false;
-	var scrollTop = 0;
-	var startPoint = 0;
-
-	var mySVG = $('.line_ec1').drawsvg({
-		duration: 1000,
-		stagger: 400,
-		easing: 'swing',
-		reverse: false
-	});
-	var mySVG2 = $('.line_ec2').drawsvg();
-	var mySVG3 = $('.line_ec3').drawsvg({
-		duration: 2000,
-		stagger: 400,
-		easing: 'swing',
-		reverse: false,
-		callback: function(){
-		if(flg2 == false){
-		mySVG2.drawsvg('animate');
-		flg2 = true;
-		}else if(flg4 == false){
-		mySVG4.drawsvg('animate');
-		flg4 = true;
-		}
-		}
-	});
-	var mySVG4 = $('.line_ec4').drawsvg({
-		duration: 1500,
-		stagger: 1000,
-		easing: 'swing',
-		reverse: false,
-	});
-	var mySVG5 = $('.line_ec5').drawsvg({
-		duration: 900,
-		stagger: 400,
-		easing: 'swing',
-		reverse: false,
-	});
-
-	$(window).on('scroll',function(){
-
-		scrollTop = $(window).scrollTop();
-		windowHeight = $(window).height();
-		startPoint = scrollTop + windowHeight - 100;
-
-		if(startPoint > target_ec1){
-		if(flg1 == false){
-		mySVG.drawsvg('animate');
-		flg1 = true;
-
-		}
-		}
-		if(startPoint > target_ec3){
-		if(flg3 == false){
-		flg4 = false;
-		mySVG3.drawsvg('animate');
-		flg3 = true;
-
-		}
-		}
-		if(startPoint > target_ec5){
-		if(flg5 == false){
-		mySVG5.drawsvg('animate');
-		flg5 = true;
-
-		}
-		}
-
-
-	});
-
-	}
-*/
 	//page mobile
-/*
 	if($('.line_mobile1').length){
 	var target_mobile1 = $('.line_mobile1').offset().top+200;
-	var target_mobile3 = $('.line_mobile3').offset().top+300;
-	var target_mobile5 = $('.line_mobile5').offset().top+300;
+	var target_mobile2 = $('.line_mobile2').offset().top+200;
+	var target_mobile3 = $('.line_mobile3').offset().top+270;
+	var target_mobile4 = $('.line_mobile4').offset().top;
 	var windowHeight = $(window).height();
 	var flg1 = false;
 	var flg2 = false;
-	var flg3 = false;
-	var flg4 = true;
-	var flg5 = false;
+	var flg3 = true;
+	var flg4 = false;
 	var scrollTop = 0;
 	var startPoint = 0;
+
 
 	var mySVG = $('.line_mobile1').drawsvg({
 		duration: 1000,
@@ -459,31 +375,27 @@ $(function(){
 	});
 	var mySVG2 = $('.line_mobile2').drawsvg();
 	var mySVG3 = $('.line_mobile3').drawsvg({
-		duration: 2000,
-		stagger: 400,
+		duration: 1000,
+		stagger: 1000,
 		easing: 'swing',
 		reverse: false,
 		callback: function(){
 		if(flg2 == false){
 		mySVG2.drawsvg('animate');
+
 		flg2 = true;
-		}else if(flg4 == false){
-		mySVG4.drawsvg('animate');
-		flg4 = true;
+		flg3 = false;
+		}else if(flg3 == false){
+		mySVG3.drawsvg('animate');
+		flg3 = true;
 		}
 		}
 	});
 	var mySVG4 = $('.line_mobile4').drawsvg({
-		duration: 1500,
+		duration: 1000,
 		stagger: 1000,
 		easing: 'swing',
-		reverse: false,
-	});
-	var mySVG5 = $('.line_mobile5').drawsvg({
-		duration: 900,
-		stagger: 400,
-		easing: 'swing',
-		reverse: false,
+		reverse: false
 	});
 
 	$(window).on('scroll',function(){
@@ -491,7 +403,6 @@ $(function(){
 		scrollTop = $(window).scrollTop();
 		windowHeight = $(window).height();
 		startPoint = scrollTop + windowHeight - 100;
-
 		if(startPoint > target_mobile1){
 		if(flg1 == false){
 		mySVG.drawsvg('animate');
@@ -499,26 +410,16 @@ $(function(){
 
 		}
 		}
-		if(startPoint > target_mobile3){
-		if(flg3 == false){
-		flg4 = false;
-		mySVG3.drawsvg('animate');
-		flg3 = true;
+		if(startPoint > target_mobile4){
+		if(flg4 == false){
+		mySVG4.drawsvg('animate');
+		flg4 = true;
 
 		}
 		}
-		if(startPoint > target_mobile5){
-		if(flg5 == false){
-		mySVG5.drawsvg('animate');
-		flg5 = true;
 
-		}
-		}
 
 
 	});
-
 	}
-
-	*/
 });
