@@ -1199,6 +1199,9 @@ footer .copyright p{
 .services.e-commerce .contents-middle h5  {
 	color: #f7951d;
 }
+.services.direct .contents-middle .dispnone {
+	display: none;
+}
 .services .t-column {
 	overflow: hidden;
 	font-size: 12px;

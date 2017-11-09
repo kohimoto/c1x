@@ -45,6 +45,15 @@ $(function(){
 	});
 
 	/**
+		Direct Seller or Buyer
+					**/
+	$('.direct .contents-middle .button-area .button').click(function(){
+		$('#buyer').toggleClass('dispnone');
+		$('#seller').toggleClass('dispnone');
+		return false;
+	});
+
+	/**
 		Rrequese demo area
 					**/
 
