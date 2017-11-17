@@ -76,7 +76,7 @@ $(function(){
 		$.ajax({
 
 			type: "POST",
-			url : "/mail1.php",
+			url : "/mail.php",
 			data: data,
 			success: function(data_r){
 			$('#inputarea').css('display','none');

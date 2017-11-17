@@ -1,3 +1,8 @@
+<?
+
+file_put_contents("/tmp/kohi.txt","\n".print_r($_POST,true),FILE_APPEND);
+?>
+
 <?php header("Content-Type:text/html;charset=utf-8"); ?>
 <?php //error_reporting(E_ALL | E_STRICT);
 ##-----------------------------------------------------------------------------------------------------------------##
@@ -197,6 +202,7 @@ if(empty($errm)){
 }
   
 if(($confirmDsp == 0 || $sendmail == 1) && $empty_flag != 1){
+//2017.11.17 kohinata 必ずこちらを通す
 	
 	//差出人に届くメールをセット
 	if($remail == 1) {
@@ -286,8 +292,10 @@ p.error_messe{
 }
 
 if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 && $sendmail == 0))) { 
+//2017.11.17 kohinata 必ずこちらを通す
 
 /* ▼▼▼送信完了画面のレイアウト　編集可 ※送信完了後に指定のページに移動しない場合のみ表示▼▼▼　*/
+if(0){
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
@@ -304,7 +312,8 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 </div>
 </body>
 </html>
-<?php }else{ ?>
+<?php 
+}else{ ?>
 送信ありがとうございました。<br />
 送信は正常に完了しました。<br /><br />
 <a href="<?php echo $site_top ;?>">トップページへ戻る&raquo;</a>
@@ -316,7 +325,12 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 <?php 
 /* ▲▲▲送信完了画面のレイアウト 編集可 ※送信完了後に指定のページに移動しない場合のみ表示▲▲▲　*/
   }
+}//if(0)
+//2017.11.17 kohinata
+//処理完了のため、custom.jsにリターン
+return "1";
 }
+
 //確認画面無しの場合の表示、指定のページに移動する設定の場合、エラーチェックで問題が無ければ指定ページヘリダイレクト
 else if(($jumpPage == 1 && $sendmail == 1) || $confirmDsp == 0) { 
 	if($empty_flag == 1){ ?>
@@ -568,5 +582,3 @@ function copyright(){
 }
 //----------------------------------------------------------------------
 //  関数定義(END)
-//----------------------------------------------------------------------
-?>
