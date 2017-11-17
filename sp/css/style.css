@@ -1567,3 +1567,32 @@ input, button, textarea, select {
 .animate-box {
   opacity: 0;
 }
+.request-area .caution{
+	font-size: 10px;
+	background: rgba(255,0,0,0.7);
+	padding: 15px;
+	position: relative;
+	display: inline-block;
+
+}
+.request-area .caution:before{
+	content: "";
+	position: absolute;
+	/*top: 100%;*/
+	left: 50%;
+	bottom: -30px;
+ 	margin-left: -15px;
+	border: 15px solid transparent;
+	border-bottom: 15px solid rgba(255,0,0,0.7);
+	transform: rotate(180deg);
+}
+.request-area .caution1{
+	position: absolute;
+	top: -5%;
+	left: 2%;
+}
+.request-area .caution2{
+	position: absolute;
+	top: 7%;
+	left: 50%;
+}
